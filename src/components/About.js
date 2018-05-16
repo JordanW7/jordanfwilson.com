@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
+import './TopContent.css';
 
-
-function Navigation(props) {
-  return (<h1>About</h1>
+function About(props) {
+  return (<h1 className="TopContent">About</h1>
   );
 }
 
-export default Navigation;
+export default About;

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-
+import './TopContent.css';
 
 function Skills(props) {
-  return (<h1>Skills</h1>
+  return (<h1 className="TopContent">Skills</h1>
   );
 }
 

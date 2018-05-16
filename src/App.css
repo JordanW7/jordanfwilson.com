@@ -1,0 +1,13 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+Row {
+	background: black;
+}
+
+Col {
+	background: red;
+}
