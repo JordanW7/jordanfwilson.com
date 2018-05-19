@@ -2,3 +2,9 @@
 	justify-content: center;
 	display: flex;
 }
+
+@media only screen and (min-height: 450px) {
+	.navContent {
+	  height: 10vh;
+	}	
+}

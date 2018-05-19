@@ -4,7 +4,7 @@ import './Navigation.css';
 
 function Navigation(props) {
   return (
-  	<Row type="flex" justify="center">
+  	<Row type="flex" justify="center" className='navContent'>
   		<Col span={24}>
   			<Affix>
   				<Menu mode="horizontal" selectedKeys="[]" className="center">

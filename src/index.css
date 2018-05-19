@@ -1,11 +1,3 @@
 * {
   box-sizing: border-box;
 }
-
-Row {
-	background: black;
-}
-
-Col {
-	background: red;
-}

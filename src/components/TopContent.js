@@ -6,17 +6,19 @@ function Header(props) {
   return (
   	<Row type="flex" align="middle" className="TopContent">
   		<Col span={24}>
-  			<h1>Jordan Wilson - Full Stack Javascript Developer</h1>
+        <p className="preheader">Hey there! My name is</p>
+        <p className="header">Jordan Wilson.</p>
+        <p className="postheader">I'm a Creative Problem Solver and Full Stack Javascript Developer.</p>
   		</Col>
   		<Col span={24}>
-  		<Icon type="linkedin" style={{ fontSize: 50 }}/> 
-  		<h2>Linkedin</h2>
-  		<Icon type="github" style={{ fontSize: 50 }}/>
-  		<h2>Github</h2>
-  		<Icon type="mail" style={{ fontSize: 50 }}/>
-  		<h2> Contact Me</h2>
-  		</Col>
-  		<Col span={24}>
+        <div className="center">
+      		<Icon type="linkedin" style={{ fontSize: 50 }} className="contact_icon"/> 
+      		<span className="contact_link padright">Linkedin</span>
+      		<Icon type="github" style={{ fontSize: 50 }} className="contact_icon"/>
+      		<span className="contact_link padright">Github</span>
+      		<Icon type="mail" style={{ fontSize: 50 }} className="contact_icon"/>
+      		<span className="contact_link">Contact Me</span>
+        </div>
   		</Col>
   	</Row>
   );
