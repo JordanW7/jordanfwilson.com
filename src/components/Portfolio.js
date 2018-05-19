@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
-import './TopContent.css';
+import { Row, Col } from 'antd';
 
 function Portfolio(props) {
-  return (<h1 className="TopContent">Portfolio</h1>
+  return (
+  	<Row>
+  		<Col span={24}>
+  			<h1>Portfolio</h1>
+  		</Col>
+  	</Row>
   );
 }
 
