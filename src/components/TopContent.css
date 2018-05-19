@@ -44,12 +44,18 @@
     opacity: 0.7;
 }
 
+a:link, a:visited, a:hover, a:active  {
+	text-decoration: none !important;
+}
+
 .contact_link:hover {
 	opacity: 1;
 	color: rgb(89, 89, 89);
 	text-shadow: 0 0 5px silver;
 	transition: opacity 0.25s linear, text-shadow 0.25s linear;
 }
+
+
 
 .padright {
 	padding-right: 10px;
