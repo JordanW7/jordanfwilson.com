@@ -8,9 +8,9 @@ function Header(props) {
   		<Col span={24}>
         <p className="preheader">Hey there! My name is</p>
         <p className="header">Jordan Wilson.</p>
+      </Col>
       <Col span={24}>
         <p className="postheader">I'm a Creative Problem Solver and Full Stack Javascript Developer.</p>
-      </Col>
       </Col>
       <Col span={24}>
         <div className="center">
