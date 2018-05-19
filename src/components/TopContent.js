@@ -14,17 +14,17 @@ function Header(props) {
       </Col>
       <Col span={24}>
         <div className="center">
-      		<a href='' className="contact_link padright">
-            <Icon type="linkedin" style={{ fontSize: 50 }} className="contact_icon"/> 
-      		  Linkedin
+      		<a href='http://www.linkedin.com/in/jordanfwilson' target="_blank" className="contact_link padright">
+            <Icon type="linkedin" style={{ fontSize: 50 }}/> 
+      		  <span className="contact_text">Linkedin</span>
           </a>
-          <a href='' className="contact_link padright">
+          <a href='https://github.com/JordanW7' target="_blank" className="contact_link padright">
             <Icon type="github" style={{ fontSize: 50 }} className="icon_pad"/>
-            Github
+            <span className="contact_text">Github</span>
           </a>
       		<a href='' className="contact_link">
             <Icon type="mail" style={{ fontSize: 50 }} className="icon_pad"/>
-            Contact Me
+            <span className="contact_text">Contact Me</span>
           </a>
         </div>
   		</Col>
