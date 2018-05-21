@@ -6,7 +6,7 @@ function Portfolio(props) {
   return (
   	<div className="projects">
   	<Row type="flex">
-      <Col span={12} style={{background: "red"}} className="test">
+      <Col span={12} className="projects_header">
         <h1>My Projects</h1>
   		</Col>
   		<Col span={12}>
