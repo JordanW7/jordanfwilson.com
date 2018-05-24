@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Icon } from 'antd';
 
-function Footer(props) {
+const Footer = (props) => {
   return (
   	<div className="center">
   	<Icon type="mail" style={{ fontSize: 25 }}/><h6> Contact Me </h6>

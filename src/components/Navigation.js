@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import { Row, Col, Affix, Menu, Icon } from 'antd';
+import React from 'react';
+import { Row, Col, Affix, Menu } from 'antd';
 import './Navigation.css';
 
-function Navigation(props) {
+const Navigation = (props) => {
   return (
   	<Row type="flex" justify="center" className='navContent'>
   		<Col span={24}>
   			<Affix>
-  				<Menu mode="horizontal" selectedKeys="[]" className="center">
+  				<Menu mode="horizontal" selectedKeys={[]} className="center">
   					<Menu.Item>My Projects</Menu.Item>
   					<Menu.Item>My Skills</Menu.Item>
   					<Menu.Item>About Me</Menu.Item>

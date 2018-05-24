@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-function About(props) {
+const About = (props) => {
   return (<h1>About</h1>
   );
 }

@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Row, Col, Icon } from 'antd';
 import './TopContent.css';
 
-function Header(props) {
+const Header = (props) => {
   return (
   	<Row type="flex" align="middle" className="TopContent">
   		<Col span={24}>
@@ -14,11 +14,11 @@ function Header(props) {
       </Col>
       <Col span={24}>
         <div className="center">
-      		<a href='http://www.linkedin.com/in/jordanfwilson' target="_blank" className="contact_link padright">
+      		<a href='http://www.linkedin.com/in/jordanfwilson' target="_blank" rel="noopener noreferrer" className="contact_link padright">
             <Icon type="linkedin" style={{ fontSize: 50 }}/> 
       		  <span className="contact_text">Linkedin</span>
           </a>
-          <a href='https://github.com/JordanW7' target="_blank" className="contact_link padright">
+          <a href='https://github.com/JordanW7' target="_blank" rel="noopener noreferrer" className="contact_link padright">
             <Icon type="github" style={{ fontSize: 50 }} className="icon_pad"/>
             <span className="contact_text">Github</span>
           </a>

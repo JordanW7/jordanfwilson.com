@@ -1,0 +1,32 @@
+.project_card {
+  margin-bottom: 20px;
+}
+
+.screenshot_box {
+	padding: 5px;
+}
+
+.project_button {
+	margin: 0 2px;
+}
+
+.screenshot {
+	width: 90%;
+	height: auto;
+    margin: 10px 0;
+    border: 5px solid white;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 8px dimgrey;
+    vertical-align: middle;
+    margin: 0 auto;
+    transition: box-shadow 0.5s linear;
+}
+
+.app_info {
+	display: block;
+}
+
+.screenshot:hover {
+  box-shadow: 0 0 15px white;
+  transition: box-shadow 0.5s linear;
+}
