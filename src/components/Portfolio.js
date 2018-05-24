@@ -11,7 +11,7 @@ const Portfolio = (props) => {
           <h1>My Projects</h1>
     		</Col>
     		<Col span={12} className="projects_header2">
-    			<h2>Here's some of the things I've built.</h2>
+    			<h2>Here's what I've built.</h2>
     		</Col>
         <ProjectList />
         </Row>

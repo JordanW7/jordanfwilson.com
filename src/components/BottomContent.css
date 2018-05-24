@@ -2,3 +2,25 @@
 	justify-content: center;
 	display: flex;
 }
+
+.footer_link {
+	font-size: 15px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 5px;
+    padding-left: 5px;
+    color: rgb(89, 89, 89);
+}
+
+.padright {
+	padding-right: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+	.footer_text {
+	    display: none;
+	}
+	.icon_pad {
+		padding-left: 10px;
+	}
+}
