@@ -6,7 +6,7 @@ import './Project.css';
 const Project = ({ name, description, image, codeLink, appLink, tags }) => {
   return (
   	<Col span={24} className="project_card">
-  		<Card title={name} extra=
+  		<Card title={<a href={codeLink} target="_blank" rel="noopener noreferrer">{name}</a>} extra=
       {<div>
         <a href={codeLink} target="_blank" rel="noopener noreferrer">
           <Button icon="github" className="project_button">Code</Button>

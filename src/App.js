@@ -14,9 +14,6 @@ class App extends Component {
         <Navigation />
     		<TopContent />
 	    	<Portfolio />
-        {
-          // Add a BackTop here
-        }
 	    	<Skills />
 	    	<About />
 	    	<BottomContent />
