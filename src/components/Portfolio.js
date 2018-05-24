@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import ProjectList from './Projectlist';
+import ProjectList from './ProjectList';
 import './Portfolio.css';
 
 const Portfolio = (props) => {
