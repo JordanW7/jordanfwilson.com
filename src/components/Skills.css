@@ -11,6 +11,15 @@
 	width: 100%; 
 }
 
+.skillsfull {
+	background-image: url(images/bg8.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+
 .skillbox {
 	margin-bottom: 10px;
 }

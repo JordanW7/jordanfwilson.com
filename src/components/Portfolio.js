@@ -5,16 +5,18 @@ import './Portfolio.css';
 
 const Portfolio = (props) => {
   return (
+    <div className="portfoliofull">
   	<div className="portfolio">
     	<Row type="flex">
         <Col span={12} className="projects_header">
-          <h1><Icon type="appstore-o"  style={{ fontSize: "50" }} /> My Projects</h1>
+          <span className="projects_font"><Icon type="appstore-o"  style={{ fontSize: "50" }} /> My Projects</span>
     		</Col>
     		<Col span={12} className="projects_header2">
-    			<h2>Here's what I've built.</h2>
+    			<span className="projects_font2">Here's what I build.</span>
     		</Col>
         <ProjectList />
         </Row>
+      </div>
       </div>
   );
 }

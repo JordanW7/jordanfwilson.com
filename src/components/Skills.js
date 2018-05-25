@@ -4,6 +4,7 @@ import './Skills.css';
 
 const Skills = (props) => {
   return (
+    <div className="skillsfull">
   	<div className="skills">
     	<Row type="flex">
         <Col span={12} className="projects_header">
@@ -45,6 +46,7 @@ const Skills = (props) => {
         </Col>
 
         </Row>
+      </div>
       </div>
   );
 }

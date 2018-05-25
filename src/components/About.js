@@ -4,6 +4,7 @@ import './About.css';
 
 const About = (props) => {
   return (
+    <div className="aboutfull">
   	<div className="about">
     	<Row type="flex">
         <Col span={12}>
@@ -18,6 +19,7 @@ const About = (props) => {
         </Card>
         </Col>
         </Row>
+      </div>
       </div>
   );
 }

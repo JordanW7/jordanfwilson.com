@@ -1,7 +1,17 @@
 @media only screen and (min-height: 350px) {
 	.TopContent {
-	  height: 90vh;
+	  height: 100vh;
 	}
+}
+
+.TopContent {
+	display: grid;
+	background-image: url(images/bg3.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
 }
 
 @media only screen and (max-width: 767px) {
@@ -17,17 +27,24 @@
 .preheader {
 	font-size: 20px;
 	margin-bottom: 0;
+	color: white;
+	font-weight: 100;
 }
 
 .header {
 	font-size: 50px;
+	font-weight: 100;
 	margin-bottom: 50px;
+	color: white;
 }
 
 .postheader {
 	font-size: 30px;
 	margin-bottom: 50px;
+	color: white;
+	font-weight: 100;
 }
+
 .center {
 	display: flex;
 	flex-wrap: wrap;
@@ -40,7 +57,7 @@
     position: relative;
     bottom: 5px;
     padding-left: 5px;
-    color: rgb(89, 89, 89);
+    color: white;
     opacity: 0.7;
 }
 
@@ -50,7 +67,7 @@ a:link, a:visited, a:hover, a:active  {
 
 .contact_link:hover {
 	opacity: 1;
-	color: rgb(89, 89, 89);
+	color: white;
 	text-shadow: 0 0 5px silver;
 	transition: opacity 0.25s linear, text-shadow 0.25s linear;
 }

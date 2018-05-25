@@ -1,10 +1,13 @@
 import React from 'react';
 import { Row, Col, Icon } from 'antd';
+import Navigation from './Navigation';
 import './TopContent.css';
 
 const Header = (props) => {
   return (
-  	<Row type="flex" align="middle" className="TopContent">
+    <div className="TopContent">
+    <Navigation />
+  	<Row align="middle">
   		<Col span={24}>
         <p className="preheader">Hey there! My name is</p>
         <p className="header">Jordan Wilson.</p>
@@ -12,23 +15,22 @@ const Header = (props) => {
       <Col span={24}>
         <p className="postheader">I'm a Creative Problem Solver and Full Stack Javascript Developer.</p>
       </Col>
-      <Col span={24}>
-        <div className="center">
+        <Col span={24}>
       		<a href='http://www.linkedin.com/in/jordanfwilson' target="_blank" rel="noopener noreferrer" className="contact_link padright">
             <Icon type="linkedin" style={{ fontSize: 50 }}/> 
-      		  <span className="contact_text">Linkedin</span>
+      		  <span className="contact_text"> Linkedin</span>
           </a>
           <a href='https://github.com/JordanW7' target="_blank" rel="noopener noreferrer" className="contact_link padright">
             <Icon type="github" style={{ fontSize: 50 }} className="icon_pad"/>
-            <span className="contact_text">Github</span>
+            <span className="contact_text"> Github</span>
           </a>
       		<a href='' className="contact_link">
             <Icon type="mail" style={{ fontSize: 50 }} className="icon_pad"/>
-            <span className="contact_text">Contact Me</span>
+            <span className="contact_text"> Contact Me</span>
           </a>
-        </div>
-  		</Col>
+        </Col>
   	</Row>
+    </div>
   );
 }
 

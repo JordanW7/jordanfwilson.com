@@ -1,5 +1,28 @@
 .project_card {
   margin-bottom: 20px;
+  background-color: rgba(0,0,0,0.8);
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
+.project_title {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: white !important;
+}
+
+.project_title a {
+  color: white;
+  font-weight: 300;
+}
+
+a:link, a:visited, a:hover, a:active  {
+  text-decoration: none !important;
+}
+
+.project_content {
+  padding: 5px;
 }
 
 .screenshot_box {
@@ -24,6 +47,8 @@
 
 .app_info {
 	display: block;
+  padding: 5px;
+  color: white;
 }
 
 .screenshot:hover {

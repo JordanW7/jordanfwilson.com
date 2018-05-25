@@ -7,3 +7,12 @@
 .about_card {
 	margin-bottom: 50px;
 }
+
+.aboutfull {
+	background-image: url(images/bg1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}

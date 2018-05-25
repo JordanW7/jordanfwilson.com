@@ -1,12 +1,35 @@
 .projects_header {
 	text-align: left;
 }
+
 .projects_header2 {
 	text-align: right;
+}
+
+.projects_font {
+	color: white;
+	font-weight: 100;
+	font-size: 50px;
+}
+
+.projects_font2 {
+	color: white;
+	font-weight: 100;
+	font-size: 40px;
+	text-align: bottom;
 }
 
 .portfolio {
 	max-width: 900px;
 	margin: 0 auto;
 	width: 100%; 
+}
+
+.portfoliofull {
+	background-image: url(images/bg2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
 }
