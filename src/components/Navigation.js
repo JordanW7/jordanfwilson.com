@@ -7,7 +7,7 @@ const Navigation = (props) => {
   	<Row type="flex" justify="center" className='navContent'>
   		<Col span={24}>
   			<Affix>
-  				<Menu mode="horizontal" selectedKeys={[]} style={{background: "black", opacity: "0.8"}} theme="dark" className="center">
+  				<Menu mode="horizontal" selectedKeys={[]} style={{background: "black", opacity: "0.9"}} theme="dark" className="center">
   					<Menu.Item>My Projects</Menu.Item>
   					<Menu.Item>My Skills</Menu.Item>
   					<Menu.Item>About Me</Menu.Item>

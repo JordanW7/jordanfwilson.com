@@ -1,7 +1,27 @@
 .center {
 	justify-content: center;
 	display: flex;
+	padding: 10px;
+	background-color: rgb(0, 0, 0, 0.9);
+	color: white;
 }
+
+.center a {
+	opacity: 0.8;
+	color: white;
+}
+
+a:link, a:visited, a:hover, a:active  {
+	text-decoration: none !important;
+	color: white !important;
+}
+
+a:hover {
+	opacity: 1;
+	text-shadow: 0 0 5px silver;
+	transition: opacity 0.25s linear, text-shadow 0.25s linear;
+}
+
 
 .footer_link {
 	font-size: 15px;
@@ -9,7 +29,6 @@
     position: relative;
     bottom: 5px;
     padding-left: 5px;
-    color: rgb(89, 89, 89);
 }
 
 .padright {

@@ -14,7 +14,7 @@ const Footer = (props) => {
 		            <Icon type="github" style={{ fontSize: 18 }} className="icon_pad"/><span className="footer_text">Github</span>
 		        </a>
 		  		<a href='' className="footer_link padright">
-		  			<Icon type="mail" style={{ fontSize: 18 }} className="icon_pad"/><span className="footer_text"> Contact Me</span>
+		  			<Icon type="mail" style={{ fontSize: 18 }} className="icon_pad"/><span className="footer_text">Contact Me</span>
 		  		</a>
 		  		<span className="footer_link">
 		  			<Icon type="copyright" style={{ fontSize: 15 }}/> 2018 Jordan Wilson
