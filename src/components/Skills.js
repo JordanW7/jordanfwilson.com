@@ -16,7 +16,7 @@ const Skills = (props) => {
         <Col span={24} className="skills_card">
           <Row>
             <Col xs={24} sm={24} md={6} lg={6} xl={6} className="skills_title">
-            <span><Icon type="desktop" style={{ fontSize: 20}} /> Front-End Development</span>
+            <Icon type="desktop" style={{ fontSize: 50}} /><p>Front-End<br />Development</p>
             </Col>
             <Col xs={24} sm={24} md={18} lg={18} xl={18} className="skills_details">
             <span>HTML5 · CSS3 · JS · ES6 · React · Redux</span>
