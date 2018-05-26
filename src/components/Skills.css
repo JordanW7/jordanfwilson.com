@@ -1,8 +1,42 @@
-.projects_header {
+.skills_card {
+  margin-bottom: 20px;
+  background-color: rgba(0,0,0,0.8);
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
+.skills_title {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.skills_details {
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	color: white;
+}
+
+
+.skills_header {
 	text-align: left;
 }
-.projects_header2 {
+.skills_header2 {
 	text-align: right;
+}
+
+.skills_font {
+	color: white;
+	font-weight: 100;
+	font-size: 50px;
+}
+
+.skills_font2 {
+	color: white;
+	font-weight: 100;
+	font-size: 40px;
 }
 
 .skills {

@@ -7,20 +7,25 @@ const Skills = (props) => {
     <div className="skillsfull">
   	<div className="skills">
     	<Row type="flex">
-        <Col span={12} className="projects_header">
-          <h1><Icon type="code-o"  style={{ fontSize: "50" }} /> My Dev Skills</h1>
+        <Col span={12} className="skills_header">
+          <span className="skills_font"><Icon type="code-o"  style={{ fontSize: "50" }} /> My Dev Skills</span>
     		</Col>
-    		<Col span={12} className="projects_header2">
-    			<h2>Here's how I build.</h2>
+    		<Col span={12} className="skills_header2">
+    			<span className="skills_font2" >Here's how I build.</span>
     		</Col>
-        </Row>
-        <Row gutter={16} type="flex" justify="center">
-        <Col xs={24} sm={24} md={12} lg={12} xl={12} className="skillbox">
-        <Card title={<span><Icon type="desktop" style={{ fontSize: 20}} /> Front-End Development</span>}>
-              HTML5 · CSS3 · JS · ES6 · React · Redux
-        </Card>
+        <Col span={24} className="skills_card">
+          <Row>
+            <Col xs={24} sm={24} md={6} lg={6} xl={6} className="skills_title">
+            <span><Icon type="desktop" style={{ fontSize: 20}} /> Front-End Development</span>
+            </Col>
+            <Col xs={24} sm={24} md={18} lg={18} xl={18} className="skills_details">
+            <span>HTML5 · CSS3 · JS · ES6 · React · Redux</span>
+            </Col>
+          </Row>
         </Col>
+        </Row>
 
+        <Row gutter={16} type="flex" justify="center">
         <Col xs={24} sm={24} md={12} lg={12} xl={12} className="skillbox">
         <Card title={<span><Icon type="database" style={{ fontSize: 20}} /> Back-End Development</span>}>
               Node.js · Express · PostgresSQL · JSON

@@ -7,11 +7,11 @@ const About = (props) => {
     <div className="aboutfull">
   	<div className="about">
     	<Row type="flex">
-        <Col span={12}>
-          <h1><Icon type="message"  style={{ fontSize: "50" }} /> About Me</h1>
+        <Col span={12} className="about_header">
+          <span className="about_font"><Icon type="message"  style={{ fontSize: "50" }} /> About Me</span>
     		</Col>
-    		<Col span={12}>
-    			<h2>Here's why I build.</h2>
+    		<Col span={12} className="about_header2">
+    			<span className="about_font2">Here's why I build.</span>
     		</Col>
         <Col span={24} className="about_card">
         <Card>

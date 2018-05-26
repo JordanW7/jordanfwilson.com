@@ -1,3 +1,23 @@
+.about_header {
+	text-align: left;
+}
+
+.about_header2 {
+	text-align: right;
+}
+
+.about_font {
+	color: white;
+	font-weight: 100;
+	font-size: 50px;
+}
+
+.about_font2 {
+	color: white;
+	font-weight: 100;
+	font-size: 40px;
+}
+
 .about {
 	max-width: 900px;
 	margin: 0 auto;
