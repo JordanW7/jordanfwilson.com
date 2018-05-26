@@ -11,9 +11,10 @@
 @media only screen and (min-width: 768px) {
 	.skills_title {
 		font-size: 23px;
+		border-right: 1px solid white;
 	}
 	.skills_details {
-		font-size: 35px;
+		font-size: 30px;
 	}
 	.skills_list {
 		width: 70%;
@@ -29,9 +30,9 @@
 }
 
 .skills_title {
-  border-right: 1px solid white;
   font-weight: 100;
   color: white;
+  padding: 10px;
 }
 
 .skills_details {
