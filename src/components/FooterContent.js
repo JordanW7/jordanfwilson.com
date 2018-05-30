@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Icon, BackTop } from 'antd';
-import './BottomContent.css';
+import './FooterContent.css';
 
 const Footer = (props) => {
   return (

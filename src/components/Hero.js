@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col, Icon } from 'antd';
 import Navigation from './Navigation';
-import './TopContent.css';
+import './Hero.css';
 
 const Header = (props) => {
   return (
