@@ -5,15 +5,15 @@ import './Hero.css';
 
 const Header = (props) => {
   return (
-    <div className="TopContent">
+    <div className="hero-full">
     <Navigation />
   	<Row align="middle">
   		<Col span={24}>
-        <p className="preheader">Hey there! My name is</p>
-        <p className="header">Jordan Wilson.</p>
+        <p className="hero-intro">Hey there! My name is</p>
+        <p className="hero-name">Jordan Wilson.</p>
       </Col>
       <Col span={24}>
-        <p className="postheader">I'm a Creative Problem Solver and Full Stack Javascript Developer.</p>
+        <p className="hero-subtitle">I'm a Creative Problem Solver and Full Stack Javascript Developer.</p>
       </Col>
         <Col span={24}>
       		<a href='http://www.linkedin.com/in/jordanfwilson' target="_blank" rel="noopener noreferrer" className="contact_link padright">
