@@ -36,24 +36,16 @@
 }
 
 @media only screen and (max-width: 767px) {
-	.contact_text {
+	.contact-text {
 	    display: none;
 	}
-	.icon_pad {
+	.hero-icon {
 		padding-left: 10px;
 	}
 
 }
 
-
-
-.center {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.contact_link {
+.contact-link {
 	font-size: 40px;
     vertical-align: middle;
     position: relative;
@@ -68,15 +60,9 @@ a:link, a:visited, a:hover, a:active  {
 	text-decoration: none !important;
 }
 
-.contact_link:hover {
+.contact-link:hover {
 	opacity: 1;
 	color: white;
 	text-shadow: 0 0 5px silver;
 	transition: opacity 0.25s linear, text-shadow 0.25s linear;
-}
-
-
-
-.padright {
-	padding-right: 10px;
 }
