@@ -1,18 +1,18 @@
-.project_card {
+.project-card {
   margin-bottom: 20px;
   background-color: rgba(0,0,0,0.8);
   border: 1px solid white;
   padding: 5px 10px;
 }
 
-.project_title {
+.project-title {
   border-bottom: 1px solid white;
   padding-bottom: 10px;
   font-size: 20px;
   color: white !important;
 }
 
-.project_title a {
+.project-title a {
   color: white;
   font-weight: 300;
   font-size: 36px;
@@ -22,19 +22,15 @@ a:link, a:visited, a:hover, a:active  {
   text-decoration: none !important;
 }
 
-.project_content {
-  padding: 5px;
-}
-
-.screenshot_box {
+.project-screenshotbox {
 	padding: 5px;
 }
 
-.project_button {
+.project-button {
 	margin: 0 2px;
 }
 
-.screenshot {
+.project-screenshot {
 	width: 90%;
 	height: auto;
     margin: 10px 0;
@@ -46,7 +42,7 @@ a:link, a:visited, a:hover, a:active  {
     transition: box-shadow 0.5s linear;
 }
 
-.app_info {
+.project-info {
 	display: block;
   padding: 5px;
   color: white;
@@ -54,7 +50,7 @@ a:link, a:visited, a:hover, a:active  {
   font-size: 17px;
 }
 
-.screenshot:hover {
+.project-screenshot:hover {
   box-shadow: 0 0 15px white;
   transition: box-shadow 0.5s linear;
 }
