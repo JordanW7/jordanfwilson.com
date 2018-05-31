@@ -1,59 +1,53 @@
 @media only screen and (max-width: 767px) {
-	.skills_title {
+	.skills-title {
 		border-bottom: 1px solid white;
 		font-size: 25px;
 	}
-	.skills_details {
+	.skills-details {
 		font-size: 20px;
 	}
 }
 
 @media only screen and (min-width: 768px) {
-	.skills_title {
+	.skills-title {
 		font-size: 23px;
 		border-right: 1px solid white;
 	}
-	.skills_details {
+	.skills-details {
 		font-size: 30px;
 	}
-	.skills_list {
+	.skills-list {
 		width: 70%;
 		margin: 0 auto;
 	}
 }
 
-.skills_card {
+.skills-card {
   margin-bottom: 20px;
   background-color: rgba(0,0,0,0.8);
   border: 1px solid white;
   padding: 5px;
 }
 
-.skills_title {
+.skills-title {
   font-weight: 100;
   color: white;
   padding: 10px;
 }
 
-.skills_details {
+.skills-details {
 	color: white;
 	font-weight: 100;
 }
 
-.skills_header {
+.skills-header {
 	text-align: left;
-}
-.skills_header2 {
-	text-align: right;
-}
-
-.skills_font {
 	color: white;
 	font-weight: 100;
 	font-size: 50px;
 }
-
-.skills_font2 {
+.skills-header2 {
+	text-align: right;
 	color: white;
 	font-weight: 100;
 	font-size: 35px;
@@ -66,7 +60,7 @@
 }
 
 .skillsfull {
-	background-image: url(images/bg5.jpg);
+	background-image: url(images/bg2.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
