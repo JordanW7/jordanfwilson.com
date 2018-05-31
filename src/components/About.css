@@ -1,31 +1,30 @@
-.about_header {
+.about-header {
 	text-align: left;
-}
-
-.about_header2 {
-	text-align: right;
-}
-
-.about_font {
 	color: white;
 	font-weight: 100;
 	font-size: 50px;
 }
 
-.about_font2 {
+.about-header2 {
+	text-align: right;
 	color: white;
 	font-weight: 100;
 	font-size: 35px;
+}
+
+.about-card {
+  margin-bottom: 20px;
+  background-color: rgba(0,0,0,0.8);
+  border: 1px solid white;
+  padding: 5px;
+  color: white;
+  font-weight: 100;
 }
 
 .about {
 	max-width: 900px;
 	margin: 0 auto;
 	width: 100%; 
-}
-
-.about_card {
-	margin-bottom: 50px;
 }
 
 .aboutfull {
