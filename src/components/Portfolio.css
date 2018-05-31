@@ -1,23 +1,16 @@
-.projects_header {
+.portfolio-header {
 	text-align: left;
-}
-
-.projects_header2 {
-	text-align: right;
-}
-
-.projects_font {
 	color: white;
 	font-weight: 100;
 	font-size: 50px;
 }
 
-.projects_font2 {
+.portfolio-header2 {
+	text-align: right;
 	color: white;
 	font-weight: 100;
 	font-size: 35px;
 }
-
 
 .portfolio {
 	max-width: 900px;
