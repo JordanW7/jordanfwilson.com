@@ -21,7 +21,7 @@ const Footer = (props) => {
 		  		</span>
 		  	</Col>
 	  	</Row>
-	  	<BackTop />
+	  	<BackTop visibilityHeight="1000" />
   	</div>
   );
 }
