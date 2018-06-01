@@ -6,6 +6,7 @@ import './Skills.css';
 const Skills = (props) => {
   return (
     <div className="skillsfull">
+      <div id="skills"></div>
     	<div className="skills">
       	<Row type="flex">
           <Col span={12} className="skills-header">

@@ -35,6 +35,21 @@
 	font-weight: 100;
 }
 
+.hero-arrow {
+	margin-top: 50px;
+	font-size: 30px;
+	color: white;
+	opacity: 0.8;
+	font-weight: 100;
+}
+
+.hero-arrow:hover {
+	opacity: 1;
+	color: white;
+	text-shadow: 0 0 5px silver;
+	transition: opacity 0.25s linear, text-shadow 0.25s linear;
+}
+
 @media only screen and (max-width: 767px) {
 	.contact-text {
 	    display: none;

@@ -1,7 +1,11 @@
 @import '~antd/dist/antd.css';
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300');
 
-
 .app {
   text-align: center;
+}
+
+:target {
+	position: relative; 
+	top: -45px;
 }

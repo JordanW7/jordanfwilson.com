@@ -6,6 +6,7 @@ import './Portfolio.css';
 const Portfolio = (props) => {
   return (
     <div className="portfoliofull">
+    <div id="portfolio"></div>
   	<div className="portfolio">
     	<Row type="flex">
         <Col span={12} className="portfolio-header">

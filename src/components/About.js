@@ -5,6 +5,7 @@ import './About.css';
 const About = (props) => {
   return (
     <div className="aboutfull">
+    <div id="about"></div>
   	<div className="about">
     	<Row type="flex">
         <Col span={12} className="about-header">
