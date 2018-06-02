@@ -10,7 +10,7 @@ const Project = ({ name, description, image, codeLink, appLink, tags }) => {
           <div style={{"float": "left"}}>
           <a href={codeLink} target="_blank" rel="noopener noreferrer">{name}</a>
           </div>
-          <div style={{"float": "right"}}>
+          <div style={{"float": "right"}} className="project-buttons">
           <a href={codeLink} target="_blank" rel="noopener noreferrer">
             <Button icon="github" className="project-button">Code</Button>
           </a>
@@ -19,7 +19,7 @@ const Project = ({ name, description, image, codeLink, appLink, tags }) => {
           </a>
           </div>
         </Col>
-            <Col xs={24} sm={24} md={12} lg={12} xl={12} className="project_content">
+            <Col xs={24} sm={24} md={12} lg={12} xl={12}>
               <div className="project-screenshotbox">
                 <a href={appLink} target="_blank">
                  <img className="project-screenshot" src="https://placeimg.com/400/300/tech" height="300" width="400" alt="Example1"/>

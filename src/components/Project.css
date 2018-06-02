@@ -7,13 +7,12 @@
 
 .project-title {
   border-bottom: 1px solid white;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   font-size: 20px;
   color: white !important;
 }
 
 .project-title a {
-  color: white;
   font-weight: 300;
   font-size: 36px;
 }
@@ -23,7 +22,8 @@ a:link, a:visited, a:hover, a:active  {
 }
 
 .project-screenshotbox {
-	padding: 5px;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 
 .project-button {
@@ -37,14 +37,13 @@ a:link, a:visited, a:hover, a:active  {
     border: 5px solid white;
     border: 5px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 8px dimgrey;
-    vertical-align: middle;
     margin: 0 auto;
     transition: box-shadow 0.5s linear;
 }
 
 .project-info {
 	display: block;
-  padding: 5px;
+  padding-top: 20px;
   color: white;
   font-weight: 100;
   font-size: 17px;
