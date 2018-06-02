@@ -70,6 +70,16 @@
     font-weight: 100;
 }
 
+.hero-dot {
+	font-size: 40px;
+    position: relative;
+    bottom: 5px;
+    padding-left: 5px;
+    color: white;
+    opacity: 0.7;
+    font-weight: 100;
+}
+
 a:link, a:visited, a:hover, a:active  {
 	text-decoration: none !important;
 }

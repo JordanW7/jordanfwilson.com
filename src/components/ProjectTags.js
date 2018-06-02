@@ -7,7 +7,7 @@ const ProjectTags = ({ tags }) => {
       {
       tags.map((tag, i) => {
         return (
-          <Tag>
+          <Tag key={i}>
           {tags[i]}
           </Tag>
         );
