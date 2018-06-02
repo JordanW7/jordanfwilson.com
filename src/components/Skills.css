@@ -1,3 +1,9 @@
+@media only screen and (max-width: 767px) {
+	.skills-description {
+		display: none;
+	}
+}
+
 .skills-header {
 	text-align: left;
 	color: white;

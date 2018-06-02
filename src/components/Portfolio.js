@@ -9,11 +9,11 @@ const Portfolio = (props) => {
     <div id="portfolio"></div>
   	<div className="portfolio">
     	<Row type="flex">
-        <Col span={12} className="portfolio-header">
+        <Col xs={24} sm={24} md={12} lg={12} xl={12} className="portfolio-header">
           <span><Icon type="appstore-o"  style={{ fontSize: "50" }} /> My Projects</span>
     		</Col>
-    		<Col span={12} className="portfolio-header2">
-    			<span>Here's what I build.</span>
+    		<Col xs={0} sm={0} md={12} lg={12} xl={12} className="portfolio-header2">
+    			<span className="portfolio-description">Here's what I build.</span>
     		</Col>
         <ProjectList />
         </Row>

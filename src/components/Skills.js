@@ -9,11 +9,11 @@ const Skills = (props) => {
       <div id="skills"></div>
     	<div className="skills">
       	<Row type="flex">
-          <Col span={12} className="skills-header">
+          <Col xs={24} sm={24} md={12} lg={12} xl={12} className="skills-header">
             <span><Icon type="code-o"  style={{ fontSize: "50" }} /> My Dev Skills</span>
       		</Col>
-      		<Col span={12} className="skills-header2">
-      			<span>Here's how I build.</span>
+      		<Col xs={0} sm={0} md={12} lg={12} xl={12} className="skills-header2">
+      			<span className="skills-description">Here's how I build.</span>
       		</Col>
           <SkillList />
         </Row>

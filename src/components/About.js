@@ -8,11 +8,11 @@ const About = (props) => {
     <div id="about"></div>
   	<div className="about">
     	<Row type="flex">
-        <Col span={12} className="about-header">
+        <Col xs={24} sm={24} md={12} lg={12} xl={12} className="about-header">
           <span><Icon type="message"  style={{ fontSize: "50" }} /> About Me</span>
     		</Col>
-    		<Col span={12} className="about-header2">
-    			<span>Here's why I build.</span>
+    		<Col xs={0} sm={0} md={12} lg={12} xl={12} className="about-header2">
+    			<span className="about-description">Here's why I build.</span>
     		</Col>
         <Col span={24} className="about-card">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a ultrices risus, ut pharetra massa. Suspendisse eleifend bibendum massa rhoncus condimentum. Integer aliquet congue urna, id ultricies lorem varius vel. Phasellus et egestas urna. Etiam interdum orci convallis tincidunt vestibulum. Aenean justo lectus, venenatis quis molestie viverra, fermentum volutpat ipsum. Morbi ac diam aliquet tellus consectetur finibus sed eget dui. Duis congue purus pellentesque ex mollis, at sollicitudin diam placerat. In hac habitasse platea dictumst.</p>

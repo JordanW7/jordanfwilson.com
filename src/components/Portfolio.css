@@ -1,3 +1,9 @@
+@media only screen and (max-width: 767px) {
+	.portfolio-description {
+		display: none;
+	}
+}
+
 .portfolio-header {
 	text-align: left;
 	color: white;
