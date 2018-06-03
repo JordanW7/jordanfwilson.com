@@ -2,6 +2,9 @@
 	.about-description {
 		display: none;
 	}
+	.aboutfull {
+	    background-attachment: initial;
+	}
 }
 
 .about-header {

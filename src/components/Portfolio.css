@@ -2,6 +2,9 @@
 	.portfolio-description {
 		display: none;
 	}
+	.portfoliofull {
+	    background-attachment: initial;
+	}
 }
 
 .portfolio-header {

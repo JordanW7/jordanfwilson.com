@@ -2,6 +2,9 @@
 	.skills-description {
 		display: none;
 	}
+	.skillsfull {
+	    background-attachment: initial;
+	}
 }
 
 .skills-header {

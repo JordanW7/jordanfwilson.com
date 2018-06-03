@@ -1,10 +1,16 @@
 @media only screen and (min-height: 350px) {
-	.hero-full {
+	.herofull {
 	  height: 100vh;
 	}
 }
 
-.hero-full {
+@media (max-width: 767px) {
+	.herofull {
+	    background-attachment: initial;
+	}
+}
+
+.herofull {
 	display: grid;
 	background-image: url(images/bg3-small.jpg);
 	background-position: center center;
