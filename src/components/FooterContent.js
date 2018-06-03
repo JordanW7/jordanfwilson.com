@@ -4,8 +4,8 @@ import './FooterContent.css';
 
 const Footer = (props) => {
   return (
-  	<div>
-	  	<Row type="flex" className="center">
+  	<div className="footerfull">
+	  	<Row type="flex" className="footer-content">
 		  	<Col span={24}>
 		  		<a href='http://www.linkedin.com/in/jordanfwilson' target="_blank" rel="noopener noreferrer" className="footer_link padright">
 		  			<Icon type="linkedin" style={{ fontSize: 18 }}/><span className="footer_text"> Linkedin</span>

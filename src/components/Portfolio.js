@@ -6,11 +6,10 @@ import './Portfolio.css';
 const Portfolio = (props) => {
   return (
     <div className="portfoliofull">
-    <div id="portfolio"></div>
   	<div className="portfolio">
     	<Row type="flex">
         <Col xs={24} sm={24} md={12} lg={12} xl={12} className="portfolio-header">
-          <span><Icon type="appstore-o"  style={{ fontSize: "50" }} /> My Projects</span>
+          <span id="portfolio"><Icon type="appstore-o"  style={{ fontSize: "50" }} /> My Projects</span>
     		</Col>
     		<Col xs={0} sm={0} md={12} lg={12} xl={12} className="portfolio-header2">
     			<span className="portfolio-description">Here's what I build.</span>

@@ -13,11 +13,11 @@ const projectArray = [
 },
 {
   name: "Robo Friends",
-  description: "",
-  image: "",
-  frontLink: "",
+  description: "A simple app that displays json robot friends that is searchable and uses redux for state management.",
+  image: "/screenshots/image2.png",
+  frontLink: "https://github.com/JordanW7/robofriends",
   backLink: "",
-  appLink: "",
+  appLink: "https://robo-friends7.herokuapp.com/",
   tags: ["ES6", "React", "Redux"]
 },
 ]

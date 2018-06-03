@@ -11,7 +11,7 @@ const Header = (props) => {
   		<Col span={24}>
         <p className="hero-intro">Hey there! My name is</p>
         <p className="hero-name">Jordan Wilson.</p>
-        <p className="hero-subtitle">I'm a Creative Problem Solver and Full Stack Javascript Developer.</p>
+        <p className="hero-subtitle">I'm a Creative Problem Solver and Full Stack Developer.</p>
       		<a href='http://www.linkedin.com/in/jordanfwilson' target="_blank" rel="noopener noreferrer" className="contact-link">
             <Icon type="linkedin" style={{ fontSize: 50 }} className="hero-icon"/> 
       		  <span className="contact-text"> Linkedin</span>

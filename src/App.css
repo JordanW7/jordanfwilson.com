@@ -5,7 +5,11 @@
   text-align: center;
 }
 
-:target {
-	position: relative; 
-	top: -45px;
+:target:before {
+  display: block; 
+  content: ""; 
+  height: 44px; 
+  margin-top: -44px;
+  visibility: hidden; 
+  pointer-events: none;
 }

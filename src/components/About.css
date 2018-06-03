@@ -19,6 +19,25 @@
 	font-size: 35px;
 }
 
+.about-contents-header {
+	font-size: 35px;
+	opacity: 0.8;
+	text-shadow: 0 0 5px silver;
+	color: white;
+}
+
+.about-contents-header:hover {
+	opacity: 1;
+	color: white;
+	text-shadow: 0 0 5px silver;
+	transition: opacity 0.25s linear, text-shadow 0.25s linear;
+}
+
+.highlight {
+	font-weight: 300;
+	text-shadow: 0 0 10px cyan;
+}
+
 .about-card {
   margin-bottom: 20px;
   background-color: rgba(0,0,0,0.8);
@@ -27,6 +46,12 @@
   color: white;
   font-weight: 100;
   font-size: 18px;
+  text-align: justify;
+}
+
+.about-card p {
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .about {
