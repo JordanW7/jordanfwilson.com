@@ -55,16 +55,16 @@
 }
 
 .aboutfull {
-	background-image: url(images/bg8-small.jpg);
+	background-color: #232323;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #464646;
 }
 
 @media only screen and (min-width: 768px) {
 	.aboutfull {
-			background-attachment: fixed;
+		background-attachment: fixed;
+		background-image: url(images/bg8-small.jpg);
 	}
 }
 
@@ -75,5 +75,6 @@
 	}
 	.aboutfull {
 	    background-attachment: initial;
+	    background-image: url(images/bg5-small.jpg);
 	}
 }

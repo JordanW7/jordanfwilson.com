@@ -20,16 +20,16 @@
 }
 
 .portfoliofull {
-	background-image: url(images/bg9-small.jpg);
+	background-color: #282828;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #464646;
 }
 
 @media only screen and (min-width: 768px) {
 	.portfoliofull {
-			background-attachment: fixed;
+		background-attachment: fixed;
+		background-image: url(images/bg9-small.jpg);
 	}
 }
 
@@ -39,5 +39,6 @@
 	}
 	.portfoliofull {
 	    background-attachment: initial;
+	    background-image: url(images/bg5-small.jpg);
 	}
 }
