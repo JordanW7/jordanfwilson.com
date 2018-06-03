@@ -1,7 +1,7 @@
 .about-header {
 	text-align: left;
 	color: white;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 50px;
 }
 
@@ -9,7 +9,7 @@
 	padding-top: 15px;
 	text-align: right;
 	color: white;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 35px;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .highlight {
-	font-weight: 300;
+	font-weight: 500;
 	text-shadow: 0 0 10px cyan;
 }
 
@@ -38,7 +38,7 @@
   border: 1px solid white;
   padding: 5px;
   color: white;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 18px;
   text-align: justify;
 }

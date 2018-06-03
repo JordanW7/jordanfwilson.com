@@ -17,12 +17,12 @@
 	font-size: 20px;
 	margin-bottom: 0;
 	color: white;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .hero-name {
 	font-size: 50px;
-	font-weight: 100;
+	font-weight: 300;
 	margin-bottom: 50px;
 	color: white;
 }
@@ -31,7 +31,7 @@
 	font-size: 30px;
 	margin-bottom: 50px;
 	color: white;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .hero-arrow {
@@ -40,7 +40,7 @@
 	font-size: 30px;
 	color: white;
 	opacity: 0.8;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .hero-arrow:hover {
@@ -73,7 +73,7 @@
     padding-left: 5px;
     color: white;
     opacity: 0.7;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .hero-dot {
@@ -83,7 +83,7 @@
     padding-left: 5px;
     color: white;
     opacity: 0.7;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 a:link, a:visited, a:hover, a:active  {
