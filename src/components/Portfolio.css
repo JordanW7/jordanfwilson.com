@@ -1,12 +1,3 @@
-@media only screen and (max-width: 767px) {
-	.portfolio-description {
-		display: none;
-	}
-	.portfoliofull {
-	    background-attachment: initial;
-	}
-}
-
 .portfolio-header {
 	text-align: left;
 	color: white;
@@ -35,4 +26,13 @@
 	background-attachment: fixed;
 	background-size: cover;
 	background-color: #464646;
+}
+
+@media only screen and (max-width: 767px) {
+	.portfolio-description {
+		display: none;
+	}
+	.portfoliofull {
+	    background-attachment: initial;
+	}
 }

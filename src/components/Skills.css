@@ -1,12 +1,3 @@
-@media only screen and (max-width: 767px) {
-	.skills-description {
-		display: none;
-	}
-	.skillsfull {
-	    background-attachment: initial;
-	}
-}
-
 .skills-header {
 	text-align: left;
 	color: white;
@@ -34,4 +25,13 @@
 	background-attachment: fixed;
 	background-size: cover;
 	background-color: #464646;
+}
+
+@media only screen and (max-width: 767px) {
+	.skills-description {
+		display: none;
+	}
+	.skillsfull {
+	    background-attachment: initial;
+	}
 }

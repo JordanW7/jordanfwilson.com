@@ -1,12 +1,3 @@
-@media only screen and (max-width: 767px) {
-	.about-description {
-		display: none;
-	}
-	.aboutfull {
-	    background-attachment: initial;
-	}
-}
-
 .about-header {
 	text-align: left;
 	color: white;
@@ -70,4 +61,13 @@
 	background-attachment: fixed;
 	background-size: cover;
 	background-color: #464646;
+}
+
+@media only screen and (max-width: 767px) {
+	.about-description {
+		display: none;
+	}
+	.aboutfull {
+	    background-attachment: initial;
+	}
 }
