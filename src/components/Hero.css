@@ -8,7 +8,6 @@
 	display: grid;
 	background-image: url(images/bg3-small.jpg);
 	background-size: cover;
-	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-color: #464646;
@@ -48,6 +47,12 @@
 	color: white;
 	text-shadow: 0 0 5px silver;
 	transition: opacity 0.25s linear, text-shadow 0.25s linear;
+}
+
+@media only screen and (min-width: 768px) {
+	.herofull {
+			background-attachment: fixed;
+	}
 }
 
 @media only screen and (max-width: 767px) {

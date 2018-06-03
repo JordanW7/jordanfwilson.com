@@ -58,10 +58,16 @@
 	background-image: url(images/bg8-small.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
 	background-color: #464646;
 }
+
+@media only screen and (min-width: 768px) {
+	.aboutfull {
+			background-attachment: fixed;
+	}
+}
+
 
 @media only screen and (max-width: 767px) {
 	.about-description {
