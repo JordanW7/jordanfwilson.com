@@ -5,7 +5,7 @@ const projectArray = [
 {
   name: "Face Recognition",
   description: "This app detects faces in pictures using Clarifai's AI API. It also has a register/signin system and a basic profile that counts and displays user submissions.",
-  image: "/screenshots/image1.png",
+  image: "/screenshots/image1.jpg",
   frontLink: "https://github.com/JordanW7/face-recognition",
   backLink: "https://github.com/JordanW7/face-recognition-backend",
   appLink: "https://facerecognition77.herokuapp.com/",
@@ -14,7 +14,7 @@ const projectArray = [
 {
   name: "Robo Friends",
   description: "A simple app that displays json robot friends that is searchable and uses redux for state management.",
-  image: "/screenshots/image2.png",
+  image: "/screenshots/image2.jpg",
   frontLink: "https://github.com/JordanW7/robofriends",
   backLink: "",
   appLink: "https://robo-friends7.herokuapp.com/",
