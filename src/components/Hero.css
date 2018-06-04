@@ -6,10 +6,10 @@
 
 .herofull {
 	display: grid;
-	background-image: url(images/bg3-small.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-color: #464646;
 }
 
@@ -50,22 +50,6 @@
 	transition: opacity 0.25s linear, text-shadow 0.25s linear;
 }
 
-@media only screen and (min-width: 768px) {
-	.herofull {
-			background-attachment: fixed;
-	}
-}
-
-@media only screen and (max-width: 767px) {
-	.contact-text {
-	    display: none;
-	}
-	.hero-icon {
-		padding-left: 10px;
-	}
-
-}
-
 .contact-link {
 	font-size: 40px;
     position: relative;
@@ -98,7 +82,60 @@ a:link, a:visited, a:hover, a:active  {
 }
 
 @media only screen and (max-width: 767px) {
+	.contact-text {
+	    display: none;
+	}
+	.hero-icon {
+		padding-left: 10px;
+	}
+
+}
+
+@media (pointer: coarse) {
 	.herofull {
-	    background-attachment: initial;
+		background-attachment: initial !important;
+	}
+}
+
+@media only screen 
+	and (max-width: 1024px) 
+	and (max-resolution: 191dpi) {
+	.herofull {
+	    background-image: url(images/bg-hero-1024.jpg);
+	}
+}
+
+@media only screen 
+	and (max-width: 1024px) 
+	and (min-resolution: 192dpi) {
+	.herofull {
+	    background-image: url(images/bg-hero-1920.jpg);
+	}
+}
+
+@media only screen 
+	and (min-width: 1025px) 
+	and (max-width: 1600px) 
+	and (max-resolution: 191dpi) {
+	.herofull {
+	    background-image: url(images/bg-hero-1600.jpg);
+	}
+}
+
+@media only screen 
+	and (min-width: 1601px) 
+	and (max-width: 1920px)
+	and (max-resolution: 191dpi) {
+	.herofull {
+	    background-image: url(images/bg-hero-1920.jpg);
+	}
+}
+
+@media only screen 
+	and (min-width: 1025px) 
+	and (min-resolution: 192dpi),
+	screen and (min-width: 1921px)  {
+	.herofull {
+	    background-image: url(images/bg-hero-3200.jpg);
 	}
 }
