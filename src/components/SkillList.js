@@ -20,7 +20,7 @@ const skillsArray = [
 {
   name: "Development Environment",
   icon: "tool",
-  description: "· Chrome DevTools · command-line · Git · npm · Webpack · Babel · Heroku",
+  description: "· Chrome DevTools · command-line · Git · npm · Webpack · Babel · ESLint · Heroku",
 },
 {
   name: "Architecture Principles",
