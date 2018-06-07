@@ -19,7 +19,7 @@ const Project = ({ name, description, image, frontLink, backLink, appLink, tags 
         </Col>
             <Col xs={24} sm={24} md={12} lg={12} xl={12}>
               <div className="project-screenshotbox">
-                <a href={appLink} target="_blank">
+                <a href={appLink} target="_blank" rel="noopener noreferrer">
                  <img className="project-screenshot" src={image} alt="Example1"/>
                 </a>
               </div>
