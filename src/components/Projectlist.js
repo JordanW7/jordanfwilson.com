@@ -13,7 +13,7 @@ const projectArray = [
 },
 {
   name: "Robo Friends",
-  description: "A simple app that displays json robot friends that is searchable and uses redux for state management. Uses Jest and Enzymes for testing.",
+  description: "A simple app that displays json robot friends that is searchable and uses redux for state management. Uses Jest and Enzyme for testing.",
   image: "/screenshots/image2.jpg",
   frontLink: "https://github.com/JordanW7/robofriends",
   backLink: "",
