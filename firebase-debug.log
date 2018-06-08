@@ -1,0 +1,50 @@
+[debug] [2018-06-07T23:18:03.405Z] ----------------------------------------------------------------------
+[debug] [2018-06-07T23:18:03.407Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-06-07T23:18:03.407Z] CLI Version:   3.18.5
+[debug] [2018-06-07T23:18:03.407Z] Platform:      darwin
+[debug] [2018-06-07T23:18:03.407Z] Node Version:  v8.11.1
+[debug] [2018-06-07T23:18:03.408Z] Time:          Fri Jun 08 2018 11:18:03 GMT+1200 (NZST)
+[debug] [2018-06-07T23:18:03.408Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-07T23:18:03.420Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-07T23:18:03.420Z] > authorizing via signed-in user
+[debug] [2018-06-07T23:18:03.422Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-07T23:18:03.422Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/PFoEBZ0R4e97e85CHxfnOE_D8RPK6maHnyPqbDfoPUQ',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Jun 08 2018 11:18:03 GMT+1200 (NZST)
+[debug] [2018-06-07T23:18:10.138Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-07T23:18:10.151Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/jordanfwilson-6d86b  
+  
+ Fri Jun 08 2018 11:18:10 GMT+1200 (NZST)
+[debug] [2018-06-07T23:18:15.393Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-07T23:18:15.395Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/jordanfwilson-6d86b/tokens  
+  
+ Fri Jun 08 2018 11:18:15 GMT+1200 (NZST)
+[debug] [2018-06-07T23:18:16.620Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'jordanfwilson-6d86b'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing build directory for upload...
+[debug] [2018-06-07T23:18:18.983Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/jordanfwilson-6d86b/uploads/-LERXmgLhID8_hpsvrf_?fileCount=27&message=  
+  
+ Fri Jun 08 2018 11:18:18 GMT+1200 (NZST)
+[debug] [2018-06-07T23:19:55.764Z] <<< HTTP RESPONSE 409
+[debug] [2018-06-07T23:19:55.764Z] <<< HTTP RESPONSE BODY undefined
+[debug] [2018-06-07T23:19:55.766Z] TypeError: Cannot read property 'error' of undefined
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:10:13)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:47:25)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+[error] 
+[error] Error: An unexpected error has occurred.
