@@ -10,10 +10,10 @@ const skillsArray = [
 {
   name: "Back-End Development",
   icon: "database",
-  description: "· Node.js · Express · PostgreSQL",
+  description: "· Node.js · Express · PostgreSQL · Redis",
 },
 {
-  name: "Real-time & Authentication",
+  name: "Security",
   icon: "lock",
   description: "· bcrypt",
 },
