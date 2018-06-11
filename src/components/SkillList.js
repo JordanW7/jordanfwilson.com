@@ -15,7 +15,7 @@ const skillsArray = [
 {
   name: "Security",
   icon: "lock",
-  description: "· bcrypt",
+  description: "· bcrypt · JWT",
 },
 {
   name: "Development Environment",
