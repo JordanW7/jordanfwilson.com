@@ -25,7 +25,7 @@ const skillsArray = [
 {
   name: "Architecture Principles",
   icon: "bulb",
-  description: "· Responsive web design · Mobile-first development · Performance optimized",
+  description: "· Responsive web design · Mobile-first development · Performance optimized · Keep it simple",
 },
 ]
 
