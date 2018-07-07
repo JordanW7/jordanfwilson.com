@@ -5,7 +5,7 @@ const skillsArray = [
 {
   name: "Front-End Development",
   icon: "desktop",
-  description: "· HTML5 · CSS3 · JS · ES6 · React · Redux · Next.js · TypeScript",
+  description: "· HTML5 · CSS3 · JS · ES6 · React · Redux",
 },
 {
   name: "Back-End Development",
