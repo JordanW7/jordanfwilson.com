@@ -8,7 +8,7 @@ const projectArray = [
   image: "/screenshots/hermescs.jpg",
   frontLink: "https://github.com/JordanW7/HermesCS",
   backLink: "https://github.com/JordanW7/HermesCS-api",
-  appLink: "",
+  appLink: "https://hermescs.xyz",
   tags: ["ES6", "React", "Redux", "Node.js", "Express", "PostgreSQL", "Redis", "bcrypt", "JWT", "Docker", "Prettier", "CircleCI"]
 },
 {
