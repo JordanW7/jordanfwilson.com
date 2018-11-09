@@ -4,7 +4,7 @@ import Project from './Project';
 const projectArray = [
 {
   name: "HermesCS",
-  description: "This app is for operating a Contact Centre. HermesCS helps manage customer info and record, manage and complete customer service requests in a fast and modern way. The app will work both in the office or out in the field on any kind of device.",
+  description: "This app is a ticketing tool for operating a Contact Centre. HermesCS helps manage customer info and record, manage and complete customer service requests in a fast and modern way. The app will work both in the office or out in the field on any kind of device.",
   image: "/screenshots/hermescs.jpg",
   frontLink: "https://github.com/JordanW7/HermesCS",
   backLink: "https://github.com/JordanW7/HermesCS-api",
