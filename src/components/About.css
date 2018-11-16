@@ -1,40 +1,43 @@
 .about-header {
-	text-align: left;
-	color: white;
-	font-weight: 300;
-	font-size: 50px;
+  text-align: left;
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
 }
 
 .about-header2 {
-	padding-top: 15px;
-	text-align: right;
-	color: white;
-	font-weight: 300;
-	font-size: 35px;
+  padding-top: 15px;
+  text-align: right;
+  color: white;
+  font-weight: 300;
+  font-size: 35px;
 }
 
 .about-contents-header {
-	font-size: 35px;
-	opacity: 0.8;
-	text-shadow: 0 0 5px silver;
-	color: white;
+  font-size: 35px;
+  opacity: 0.8;
+  text-shadow: 0 0 5px silver;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .about-contents-header:hover {
-	opacity: 1;
-	color: white;
-	text-shadow: 0 0 5px silver;
-	transition: opacity 0.25s linear, text-shadow 0.25s linear;
+  opacity: 1;
+  color: white;
+  text-shadow: 0 0 5px silver;
+  transition: opacity 0.25s linear, text-shadow 0.25s linear;
 }
 
 .highlight {
-	font-weight: 600;
-	text-shadow: 0 0 10px cyan;
+  font-weight: 600;
+  text-shadow: 0 0 10px cyan;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
 }
 
 .about-card {
   margin-bottom: 20px;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   border: 1px solid white;
   padding: 5px;
   color: white;
@@ -44,71 +47,60 @@
 }
 
 .about-card p {
-	padding-left: 10px;
-	padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .about {
-	max-width: 900px;
-	margin: 0 auto;
-	width: 100%; 
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .aboutfull {
-	background-color: #232323;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+  background-color: #232323;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 @media only screen and (max-width: 767px) {
-	.about-description {
-		display: none;
-	}
-	.aboutfull {
-		background-image: url(images/bg-mobile-1600.jpg);
-	}
+  .about-description {
+    display: none;
+  }
+  .aboutfull {
+    background-image: url(images/bg-mobile-1600.jpg);
+  }
 }
 
 @media (pointer: coarse) {
-	.aboutfull {
-		background-attachment: initial !important;
-	}
+  .aboutfull {
+    background-attachment: initial !important;
+  }
 }
 
-@media only screen 
-	and (min-width: 768px) 
-	and (max-width: 1600px) 
-	and (max-resolution: 191dpi) {
-	.aboutfull {
-	    background-image: url(images/bg-about-1600.jpg);
-	}
+@media only screen and (min-width: 768px) and (max-width: 1600px) and (max-resolution: 191dpi) {
+  .aboutfull {
+    background-image: url(images/bg-about-1600.jpg);
+  }
 }
 
-@media only screen 
-	and (min-width: 768px)
-	and (max-width: 1024px) 
-	and (min-resolution: 192dpi) {
-	.aboutfull {
-	    background-image: url(images/bg-about-1920.jpg);
-	}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (min-resolution: 192dpi) {
+  .aboutfull {
+    background-image: url(images/bg-about-1920.jpg);
+  }
 }
 
-@media only screen 
-	and (min-width: 1601px) 
-	and (max-width: 1920px)
-	and (max-resolution: 191dpi) {
-	.aboutfull {
-	    background-image: url(images/bg-about-1920.jpg);
-	}
+@media only screen and (min-width: 1601px) and (max-width: 1920px) and (max-resolution: 191dpi) {
+  .aboutfull {
+    background-image: url(images/bg-about-1920.jpg);
+  }
 }
 
-@media only screen 
-	and (min-width: 1025px) 
-	and (min-resolution: 192dpi),
-	screen and (min-width: 1921px)  {
-	.aboutfull {
-	    background-image: url(images/bg-about-3200.jpg);
-	}
+@media only screen and (min-width: 1025px) and (min-resolution: 192dpi),
+  screen and (min-width: 1921px) {
+  .aboutfull {
+    background-image: url(images/bg-about-3200.jpg);
+  }
 }
