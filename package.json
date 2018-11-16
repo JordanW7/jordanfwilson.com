@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "antd": "^3.6.1",
+    "husky": "^1.1.4",
+    "prettier": "^1.15.2",
+    "pretty-quick": "^1.8.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-scripts": "2.1.1"
@@ -12,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "precommit": "pretty-quick --staged"
   },
   "browserslist": [
     ">0.2%",

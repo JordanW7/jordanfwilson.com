@@ -6,7 +6,7 @@ import './Skills.css';
 const Skills = (props) => {
   return (
     <div className="skillsfull">
-    	<div className="skills">
+    	<section className="skills">
       	<Row type="flex">
           <Col xs={24} sm={24} md={12} lg={12} xl={12} className="skills-header">
             <span id="skills"><Icon type="code-o"  style={{ fontSize: "50" }} /> My Dev Skills</span>
@@ -16,7 +16,7 @@ const Skills = (props) => {
       		</Col>
           <SkillList />
         </Row>
-      </div>
+      </section>
     </div>
   );
 }

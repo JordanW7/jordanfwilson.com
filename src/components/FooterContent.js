@@ -4,7 +4,7 @@ import './FooterContent.css';
 
 const Footer = (props) => {
   return (
-  	<div className="footerfull">
+  	<footer className="footerfull">
 	  	<Row type="flex" className="footer-content">
 		  	<Col span={24}>
 		  		<a href='http://www.linkedin.com/in/jordanfwilson' target="_blank" rel="noopener noreferrer" className="footer_link padright">
@@ -19,7 +19,7 @@ const Footer = (props) => {
 		  	</Col>
 	  	</Row>
 	  	<BackTop visibilityHeight="1000" />
-  	</div>
+  	</footer>
   );
 }
 

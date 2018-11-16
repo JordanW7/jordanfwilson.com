@@ -5,7 +5,7 @@ import Navigation from './Navigation';
 
 const Header = (props) => {
   return (
-    <div className="herofull">
+    <header className="herofull">
     <Navigation />
   	<Row type="flex" align="middle">
   		<Col span={24}>
@@ -24,7 +24,7 @@ const Header = (props) => {
         <div className="hero-arrow"><a href="#portfolio">﹀</a></div>
         </Col>
   	</Row>
-    </div>
+    </header>
   );
 }
 
