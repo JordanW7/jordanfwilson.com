@@ -3,9 +3,9 @@ import Project from "./Project";
 
 const projectArray = [
   {
-    name: "Redsift",
+    name: "Red Sift",
     description:
-      "Currently working as a Full Stack Software Engineer for Red Sift, working on security apps such as OnDMARC and OnINBOX.",
+      "Currently working for Red Sift as a Software Engineer, working on security apps such as OnDMARC and OnINBOX.",
     image: "/screenshots/redsift.jpg",
     appLink: "https://redsift.com",
     tags: ["JavaScript", "React.js", "Redux", "Node.js", "Python"]

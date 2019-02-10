@@ -1,10 +1,29 @@
-.navbar-items {
-	justify-content: center;
-	display: flex;
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  vertical-align: initial;
+  margin: 0;
+  padding: 0;
+  z-index: 9;
+  color: #fff;
+  top: 0;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  position: fixed;
+  height: 44px;
 }
 
-@media only screen and (min-height: 500px) {
-	.navbar {
-	  height: 10vh;
-	}	
+.nav-item {
+  margin-right: 24px;
+}
+
+.nav-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 30px;
+  text-shadow: 0 0 5px #000;
+  color: #fff;
 }
