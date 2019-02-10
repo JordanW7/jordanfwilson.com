@@ -5,7 +5,7 @@ import Navigation from "./Navigation";
 
 const Header = props => {
   return (
-    <header className="herofull">
+    <header className="herofull" id="home">
       <Navigation />
       <Row type="flex" align="middle">
         <Col span={24}>
