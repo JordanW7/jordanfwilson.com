@@ -8,7 +8,7 @@ const ProjectButtons = ({ Type, Link }) => {
   if (Type === "app") {
     return (
       <a href={Link} target="_blank" rel="noopener noreferrer">
-        <Button type="primary" className="project-button">
+        <Button size="small" type="primary" className="project-button">
           Visit
         </Button>
       </a>
@@ -17,7 +17,7 @@ const ProjectButtons = ({ Type, Link }) => {
   if (Type === "code") {
     return (
       <a href={Link} target="_blank" rel="noopener noreferrer">
-        <Button icon="github" className="project-button">
+        <Button size="small" icon="github" className="project-button">
           Code
         </Button>
       </a>
@@ -26,8 +26,8 @@ const ProjectButtons = ({ Type, Link }) => {
   if (Type === "front") {
     return (
       <a href={Link} target="_blank" rel="noopener noreferrer">
-        <Button icon="github" className="project-button">
-          Front-End
+        <Button size="small" icon="github" className="project-button">
+          Frontend
         </Button>
       </a>
     );
@@ -35,8 +35,8 @@ const ProjectButtons = ({ Type, Link }) => {
   if (Type === "back") {
     return (
       <a href={Link} target="_blank" rel="noopener noreferrer">
-        <Button icon="github" className="project-button">
-          Back-End
+        <Button size="small" icon="github" className="project-button">
+          Backend
         </Button>
       </a>
     );

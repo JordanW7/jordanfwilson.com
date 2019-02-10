@@ -8,12 +8,10 @@
 .project-title {
   border-bottom: 1px solid white;
   padding-bottom: 5px;
-  font-size: 20px;
   color: white !important;
 }
 
-.project-title a {
-  font-weight: 300;
+.project-title-text {
   font-size: 36px;
 }
 
@@ -35,11 +33,9 @@ a:active {
 .project-screenshot {
   width: 90%;
   height: auto;
-  margin: 10px 0;
   border: 5px solid white;
   border: 5px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 8px dimgrey;
-  margin: 0 auto;
   transition: box-shadow 0.5s linear;
 }
 
@@ -54,4 +50,14 @@ a:active {
 .project-screenshot:hover {
   box-shadow: 0 0 15px white;
   transition: box-shadow 0.5s linear;
+}
+
+@media only screen and (max-width: 767px) {
+  .project-title {
+    flex-direction: column;
+  }
+  .project-info {
+    font-size: 15px;
+    padding-top: 0px;
+  }
 }

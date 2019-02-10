@@ -24,7 +24,12 @@ const Project = ({
         className="project-title"
       >
         <header>
-          <a href={appLink} target="_blank" rel="noopener noreferrer">
+          <a
+            href={appLink}
+            className="project-title-text"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {name}
           </a>
         </header>
@@ -49,7 +54,9 @@ const Project = ({
                 alt="Project Screenshot"
               />
             </a>
-            <figcaption>Fig. {name} - Screenshot</figcaption>
+            <figcaption style={{ display: "none" }}>
+              Fig. {name} - Screenshot
+            </figcaption>
           </figure>
         </Col>
         <Col xs={24} sm={24} md={12} lg={12} xl={12} className="project-info">
