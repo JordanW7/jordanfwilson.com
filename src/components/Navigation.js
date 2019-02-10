@@ -22,6 +22,9 @@ class Navigation extends Component {
             JORDAN WILSON
           </a>
           <div className="desktop-menu">
+            <a className="nav-item" href="#home">
+              Home
+            </a>
             <a className="nav-item" href="#portfolio">
               My Projects
             </a>
@@ -39,11 +42,15 @@ class Navigation extends Component {
             />
           </div>
         </div>
-        <div className={menuOpen ? "mobile-menu" : "mobile-menu-hidden"}>
+        <div
+          className={
+            menuOpen ? "mobile-menu mobile-menu-visible" : "mobile-menu"
+          }
+        >
           <a
             className="mobile-menu-link"
             onClick={this.handleMenuFold}
-            href="/"
+            href="#home"
           >
             Home
           </a>

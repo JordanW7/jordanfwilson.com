@@ -36,13 +36,14 @@
   top: 44px;
   background: #333;
   overflow: hidden;
+  height: 0;
   transition: height 0.3s ease-out;
   text-align: left;
   z-index: 10;
 }
 
-.mobile-menu-hidden {
-  display: none;
+.mobile-menu-visible {
+  height: 200px;
 }
 
 .mobile-menu-link {
