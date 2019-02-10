@@ -13,7 +13,7 @@ const Footer = props => {
             rel="noopener noreferrer"
             className="footer_link padright"
           >
-            <Icon type="linkedin" style={{ fontSize: 18 }} />
+            <Icon type="linkedin" theme="filled" style={{ fontSize: 18 }} />
             <span className="footer_text"> Linkedin</span>
           </a>
           <a
@@ -22,7 +22,7 @@ const Footer = props => {
             rel="noopener noreferrer"
             className="footer_link padright"
           >
-            <Icon type="github" style={{ fontSize: 18 }} />
+            <Icon type="github" theme="filled" style={{ fontSize: 18 }} />
             <span className="footer_text"> Github</span>
           </a>
           <span className="footer_link">

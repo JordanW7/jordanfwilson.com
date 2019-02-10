@@ -22,6 +22,7 @@ const Header = props => {
           >
             <Icon
               type="linkedin"
+              theme="filled"
               style={{ fontSize: 50 }}
               className="hero-icon"
             />
@@ -36,6 +37,7 @@ const Header = props => {
           >
             <Icon
               type="github"
+              theme="filled"
               style={{ fontSize: 50 }}
               className="hero-icon"
             />

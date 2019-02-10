@@ -18,8 +18,7 @@ const Portfolio = props => {
               className="portfolio-header"
             >
               <span id="portfolio">
-                <Icon type="appstore-o" style={{ fontSize: "50" }} /> My
-                Projects
+                <Icon type="heart" style={{ fontSize: "50" }} /> My Projects
               </span>
             </Col>
             <Col

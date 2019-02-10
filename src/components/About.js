@@ -9,8 +9,7 @@ const About = props => {
         <Row type="flex">
           <Col xs={24} sm={24} md={12} lg={12} xl={12} className="about-header">
             <span id="about">
-              <Icon type="message" style={{ fontSize: "50" }} />
-              About Me
+              <Icon type="message" style={{ fontSize: "50" }} /> About Me
             </span>
           </Col>
           <Col xs={0} sm={0} md={12} lg={12} xl={12} className="about-header2">
