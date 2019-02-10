@@ -5,23 +5,18 @@ const skillsArray = [
   {
     name: "Front-End Development",
     icon: "desktop",
-    description: "· HTML5 · CSS3 · JS · ES6 · React · Redux"
+    description: "· HTML5 · CSS3 · JS · ES6 · React.js · Redux"
   },
   {
     name: "Back-End Development",
     icon: "database",
-    description: "· Node.js · Express · PostgreSQL · Redis"
-  },
-  {
-    name: "Security",
-    icon: "lock",
-    description: "· bcrypt · JWT"
+    description: "· Node.js · Python · PostgreSQL · Redis"
   },
   {
     name: "Development Environment",
     icon: "tool",
     description:
-      "· Chrome DevTools · command-line · Git · npm · Webpack · Babel · ESLint · Docker · Jest · Enzyme · Prettier · CircleCI · AWS · Firebase · Heroku"
+      "· Docker · CircleCI · Firebase · Heroku · Git · Lint · Chrome DevTools · command-line · npm"
   },
   {
     name: "Architecture Principles",

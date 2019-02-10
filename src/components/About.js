@@ -84,15 +84,15 @@ const About = props => {
             <p>
               <mark className="about-contents-header">#GlobalAwareness</mark>
               <br />
-              Having travelled extensively through 18 countries, spending the
+              Having travelled extensively through 19 countries, spending the
               most of my life in New Zealand and now living in London, I also
               have a{" "}
               <mark className="highlight">
                 global awareness and understanding of other cultures.
               </mark>{" "}
               Countries I've been to include: Australia, Austria, Belgium,
-              Cambodia, China, Czech Republic, England, Germany, Japan, the
-              Netherlands, New Zealand, Singapore, Scotland, South Korea,
+              Cambodia, China, Czech Republic, England, France, Germany, Japan,
+              the Netherlands, New Zealand, Singapore, Scotland, South Korea,
               Thailand, U.A.E, Vietnam and Wales.
             </p>
           </Col>
