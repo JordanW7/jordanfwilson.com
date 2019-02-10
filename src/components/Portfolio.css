@@ -1,79 +1,67 @@
 .portfolio-header {
-	text-align: left;
-	color: white;
-	font-weight: 300;
-	font-size: 50px;
+  text-align: left;
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
 }
 
 .portfolio-header2 {
-	padding-top: 15px;
-	text-align: right;
-	color: white;
-	font-weight: 300;
-	font-size: 35px;
+  padding-top: 15px;
+  color: white;
+  font-weight: 300;
+  font-size: 35px;
 }
 
 .portfolio {
-	max-width: 900px;
-	margin: 0 auto;
-	width: 100%; 
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .portfoliofull {
-	background-color: #282828;
-	background-attachment: fixed;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-color: #282828;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 767px) {
-	.portfolio-description {
-		display: none;
-	}
-	.portfoliofull {
-		background-image: url(images/bg-mobile-1600.jpg);
-	}
+  .portfolio-description {
+    display: none;
+  }
+  .portfoliofull {
+    background-image: url(images/bg-mobile-1600.jpg);
+  }
 }
 
 @media (pointer: coarse) {
-	.portfoliofull {
-		background-attachment: initial !important;
-	}
+  .portfoliofull {
+    background-attachment: initial !important;
+  }
 }
 
-@media only screen 
-	and (min-width: 768px) 
-	and (max-width: 1600px) 
-	and (max-resolution: 191dpi) {
-	.portfoliofull {
-	    background-image: url(images/bg-portfolio-1600.jpg);
-	}
+@media only screen and (min-width: 768px) and (max-width: 1600px) and (max-resolution: 191dpi) {
+  .portfoliofull {
+    background-image: url(images/bg-portfolio-1600.jpg);
+  }
 }
 
-@media only screen 
-	and (min-width: 768px)
-	and (max-width: 1024px) 
-	and (min-resolution: 192dpi) {
-	.portfoliofull {
-	    background-image: url(images/bg-portfolio-1920.jpg);
-	}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (min-resolution: 192dpi) {
+  .portfoliofull {
+    background-image: url(images/bg-portfolio-1920.jpg);
+  }
 }
 
-@media only screen 
-	and (min-width: 1601px) 
-	and (max-width: 1920px)
-	and (max-resolution: 191dpi) {
-	.portfoliofull {
-	    background-image: url(images/bg-portfolio-1920.jpg);
-	}
+@media only screen and (min-width: 1601px) and (max-width: 1920px) and (max-resolution: 191dpi) {
+  .portfoliofull {
+    background-image: url(images/bg-portfolio-1920.jpg);
+  }
 }
 
-@media only screen 
-	and (min-width: 1025px) 
-	and (min-resolution: 192dpi),
-	screen and (min-width: 1921px)  {
-	.portfoliofull {
-	    background-image: url(images/bg-portfolio-3200.jpg);
-	}
+@media only screen and (min-width: 1025px) and (min-resolution: 192dpi),
+  screen and (min-width: 1921px) {
+  .portfoliofull {
+    background-image: url(images/bg-portfolio-3200.jpg);
+  }
 }

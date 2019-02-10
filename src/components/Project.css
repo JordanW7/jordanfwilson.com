@@ -1,23 +1,6 @@
-@media only screen and (max-width: 767px) {
-  .project-buttons {
-    float: none !important;
-  }
-  .project-title-contents {
-    float: none !important;
-  }
-}
-
-.project-buttons {
-  float: right;
-}
-
-.project-title-contents {
-    float: left;
-}
-
 .project-card {
   margin-bottom: 20px;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   border: 1px solid white;
   padding: 0px 10px;
 }
@@ -34,7 +17,10 @@
   font-size: 36px;
 }
 
-a:link, a:visited, a:hover, a:active  {
+a:link,
+a:visited,
+a:hover,
+a:active {
   text-decoration: none !important;
 }
 
@@ -43,22 +29,22 @@ a:link, a:visited, a:hover, a:active  {
 }
 
 .project-button {
-	margin: 0 2px;
+  margin: 0 2px;
 }
 
 .project-screenshot {
-	width: 90%;
-	height: auto;
-    margin: 10px 0;
-    border: 5px solid white;
-    border: 5px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 8px dimgrey;
-    margin: 0 auto;
-    transition: box-shadow 0.5s linear;
+  width: 90%;
+  height: auto;
+  margin: 10px 0;
+  border: 5px solid white;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 8px dimgrey;
+  margin: 0 auto;
+  transition: box-shadow 0.5s linear;
 }
 
 .project-info {
-	display: block;
+  display: block;
   padding-top: 20px;
   color: white;
   font-weight: 300;

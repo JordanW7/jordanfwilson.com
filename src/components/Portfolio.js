@@ -8,32 +8,26 @@ const Portfolio = props => {
     <section className="portfoliofull">
       <div className="portfolio">
         <Row type="flex">
-          <header>
-            <Col
-              xs={24}
-              sm={24}
-              md={12}
-              lg={12}
-              xl={12}
-              className="portfolio-header"
-            >
-              <span id="portfolio">
-                <Icon type="heart" style={{ fontSize: "50" }} /> My Projects
-              </span>
-            </Col>
-            <Col
-              xs={0}
-              sm={0}
-              md={12}
-              lg={12}
-              xl={12}
-              className="portfolio-header2"
-            >
-              <span className="portfolio-description">
-                Here's what I build.
-              </span>
-            </Col>
-          </header>
+          <Col
+            xs={24}
+            sm={24}
+            md={24}
+            lg={24}
+            xl={24}
+            className="portfolio-header"
+          >
+            <header>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <span className="portfolio-header" id="portfolio">
+                  <Icon type="heart" style={{ fontSize: "50" }} /> My Projects
+                </span>
+                <span className="portfolio-header2 portfolio-description">
+                  Here's what I build.
+                </span>
+              </div>
+            </header>
+          </Col>
+
           <ProjectList />
         </Row>
       </div>

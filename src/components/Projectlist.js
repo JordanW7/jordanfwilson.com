@@ -3,6 +3,14 @@ import Project from "./Project";
 
 const projectArray = [
   {
+    name: "Redsift",
+    description:
+      "Currently working as a Full Stack Software Engineer for Red Sift, working on security apps such as OnDMARC and OnINBOX.",
+    image: "/screenshots/redsift.jpg",
+    appLink: "https://redsift.com",
+    tags: ["JavaScript", "React.js", "Redux", "Node.js", "Python"]
+  },
+  {
     name: "HermesCS",
     description:
       "This app is a ticketing tool for operating a Contact Centre. HermesCS helps manage customer info and record, manage and complete customer service requests in a fast and modern way. The app will work both in the office or out in the field on any kind of device.",

@@ -14,23 +14,32 @@ const Project = ({
   tags
 }) => {
   return (
-    <article>
-      <Row className="project-card">
-        <Col span={24} className="project-title">
-          <header className="project-title-contents">
-            <a href={appLink} target="_blank" rel="noopener noreferrer">
-              {name}
-            </a>
-          </header>
-          <div className="project-buttons">
+    <article className="project-card">
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center"
+        }}
+        className="project-title"
+      >
+        <header>
+          <a href={appLink} target="_blank" rel="noopener noreferrer">
+            {name}
+          </a>
+        </header>
+        <div>
+          {frontLink && (
             <ProjectButtons
               Type={backLink ? "front" : "code"}
               Link={frontLink}
             />
-            <ProjectButtons Type="back" Link={backLink} />
-            <ProjectButtons Type="app" Link={appLink} />
-          </div>
-        </Col>
+          )}
+          {backLink && <ProjectButtons Type="back" Link={backLink} />}
+          <ProjectButtons Type="app" Link={appLink} />
+        </div>
+      </div>
+      <Row>
         <Col xs={24} sm={24} md={12} lg={12} xl={12}>
           <figure className="project-screenshotbox">
             <a href={appLink} target="_blank" rel="noopener noreferrer">
