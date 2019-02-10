@@ -1,20 +1,18 @@
-import React from 'react';
-import { Tag } from 'antd';
+import React from "react";
+import { Tag } from "antd";
 
 const ProjectTags = ({ tags }) => {
-  return(
+  return (
     <div>
-      {
-      tags.map((tag, i) => {
+      {tags.map((tag, i) => {
         return (
-          <Tag key={i}>
-          {tags[i]}
+          <Tag color="volcano" key={i}>
+            {tags[i]}
           </Tag>
         );
-      })
-    }
+      })}
     </div>
-  )
-}
+  );
+};
 
 export default ProjectTags;
