@@ -19,7 +19,7 @@ const Portfolio = props => {
             <header id="portfolio">
               <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <span className="portfolio-header">
-                  <Icon type="heart" style={{ fontSize: "50" }} /> My Projects
+                  <Icon type="heart" style={{ fontSize: "50" }} /> Portfolio
                 </span>
                 <span className="portfolio-header2 portfolio-description">
                   Here's what I build.

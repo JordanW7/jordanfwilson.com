@@ -26,13 +26,13 @@ class Navigation extends Component {
               Home
             </a>
             <a className="nav-item" href="#portfolio">
-              My Projects
+              Portfolio
             </a>
             <a className="nav-item" href="#skills">
-              My Skills
+              Skills
             </a>
             <a className="nav-item" href="#about">
-              About Me
+              About
             </a>
           </div>
           <div className="mobile-menu-toggle nav-item">
