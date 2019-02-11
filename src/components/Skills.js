@@ -17,7 +17,7 @@ const Skills = props => {
             className="skills-header"
           >
             <span id="skills">
-              <Icon type="fire" style={{ fontSize: "50" }} /> My Dev Skills
+              <Icon type="fire" style={{ fontSize: "50" }} /> Skills
             </span>
           </Col>
           <Col xs={0} sm={0} md={12} lg={12} xl={12} className="skills-header2">
