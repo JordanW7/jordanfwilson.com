@@ -59,21 +59,21 @@ class Navigation extends Component {
             onClick={this.handleMenuFold}
             href="#portfolio"
           >
-            My Projects
+            Portfolio
           </a>
           <a
             className="mobile-menu-link"
             onClick={this.handleMenuFold}
             href="#skills"
           >
-            My Skills
+            Skills
           </a>
           <a
             className="mobile-menu-link"
             onClick={this.handleMenuFold}
             href="#about"
           >
-            About Me
+            About
           </a>
         </div>
       </nav>
