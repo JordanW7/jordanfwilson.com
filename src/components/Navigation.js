@@ -31,39 +31,27 @@ const Navigation = () => {
         <div className="mobile-menu-toggle nav-item">
           <Icon
             type={menuOpen ? "menu-fold" : "menu-unfold"}
-            onClick={this.handleMenuFold}
+            onClick={handleMenuFold}
           />
         </div>
       </div>
       <div
         className={menuOpen ? "mobile-menu mobile-menu-visible" : "mobile-menu"}
       >
-        <a
-          className="mobile-menu-link"
-          onClick={this.handleMenuFold}
-          href="#home"
-        >
+        <a className="mobile-menu-link" onClick={handleMenuFold} href="#home">
           Home
         </a>
         <a
           className="mobile-menu-link"
-          onClick={this.handleMenuFold}
+          onClick={handleMenuFold}
           href="#portfolio"
         >
           Portfolio
         </a>
-        <a
-          className="mobile-menu-link"
-          onClick={this.handleMenuFold}
-          href="#skills"
-        >
+        <a className="mobile-menu-link" onClick={handleMenuFold} href="#skills">
           Skills
         </a>
-        <a
-          className="mobile-menu-link"
-          onClick={this.handleMenuFold}
-          href="#about"
-        >
+        <a className="mobile-menu-link" onClick={handleMenuFold} href="#about">
           About
         </a>
       </div>
