@@ -1,14 +1,6 @@
 import React, { Fragment, useState } from "react";
 import styled from "styled-components";
 
-const MenuIcon = styled.label`
-  cursor: pointer;
-  float: right;
-  padding: 28px 20px;
-  position: relative;
-  user-select: none;
-`;
-
 const NavIcon = styled.span`
   background: ${props => (props.open ? "transparent" : "white")};
   display: block;
@@ -42,9 +34,22 @@ const NavIcon = styled.span`
 
 const MenuButton = styled.input`
   display: none;
-  :hover {
-    background-color: #f4f4f4;
-  }
+`;
+
+const MenuIcon = styled.label`
+  cursor: pointer;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+  /* :hover {
+    span {
+      background: red;
+    }
+    span:before,
+    span:after {
+      background: blue;
+    }
+  } */
 `;
 
 const NavigationHamburger = ({ onClick = () => {} }) => {
