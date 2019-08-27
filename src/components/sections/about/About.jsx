@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Icon } from "antd";
-import "./About.css";
+import "../../../About.css";
 
 const About = props => {
   return (

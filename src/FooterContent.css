@@ -1,0 +1,52 @@
+.footerfull {
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+.footer-content {
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+.footer-content a {
+  opacity: 0.8;
+  color: white;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+a:hover {
+  opacity: 1;
+  text-shadow: 0 0 5px silver;
+  transition: opacity 0.25s linear, text-shadow 0.25s linear;
+}
+
+.footer_link {
+  font-size: 15px;
+  vertical-align: middle;
+  position: relative;
+  bottom: 5px;
+  padding-left: 5px;
+}
+
+.padright {
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer_text {
+    display: none;
+  }
+  .icon_pad {
+    padding-left: 10px;
+  }
+}

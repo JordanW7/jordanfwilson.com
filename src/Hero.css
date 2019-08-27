@@ -1,11 +1,24 @@
 .herofull {
   min-height: 100vh;
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #464646;
+  text-align: center;
+}
+
+:target:before {
+  display: block;
+  content: "";
+  height: 44px;
+  margin-top: -44px;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .hero-intro {

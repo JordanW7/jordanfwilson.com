@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col } from "antd";
 import ProjectTags from "./ProjectTags";
 import ProjectButtons from "./ProjectButtons";
-import "./Project.css";
+import "../../../Project.css";
 
 const Project = ({
   name,

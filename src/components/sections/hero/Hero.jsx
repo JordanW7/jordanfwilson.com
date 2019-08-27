@@ -1,18 +1,16 @@
 import React from "react";
 import { Row, Col, Icon } from "antd";
-import "./Hero.css";
-import Navigation from "./Navigation";
+import "../../../Hero.css";
 
 const Header = props => {
   return (
     <header className="herofull" id="home">
-      <Navigation />
       <Row type="flex" align="middle">
         <Col span={24}>
           <p className="hero-intro">Hey there! My name is</p>
           <p className="hero-name">Jordan Wilson.</p>
           <p className="hero-subtitle">
-            I'm a Creative Problem Solver and Full Stack Developer.
+            I'm a Creative Problem Solver and Software Engineer.
           </p>
           <a
             href="http://www.linkedin.com/in/jordanfwilson"

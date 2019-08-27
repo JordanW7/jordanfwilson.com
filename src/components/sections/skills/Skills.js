@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Icon } from "antd";
 import SkillList from "./SkillList";
-import "./Skills.css";
+import "../../../Skills.css";
 
 const Skills = props => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Icon } from "antd";
-import "./SkillCard.css";
+import "../../../SkillCard.css";
 
 const SkillCard = ({ name, description, icon }) => {
   return (

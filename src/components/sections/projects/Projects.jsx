@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Icon } from "antd";
 import ProjectList from "./ProjectList";
-import "./Portfolio.css";
+import "../../../Portfolio.css";
 
 const Portfolio = props => {
   return (

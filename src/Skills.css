@@ -1,0 +1,76 @@
+.skills-header {
+  text-align: left;
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
+}
+.skills-header2 {
+  padding-top: 15px;
+  text-align: right;
+  color: white;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+:target:before {
+  display: block;
+  content: "";
+  height: 44px;
+  margin-top: -44px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.skills {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.skillsfull {
+  background-color: #2d2d2d;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 767px) {
+  .skills-description {
+    display: none;
+  }
+  .skillsfull {
+    background-image: url(images/bg-mobile-1600.jpg);
+  }
+}
+
+@media (pointer: coarse) {
+  .skillsfull {
+    background-attachment: initial !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1600px) and (max-resolution: 191dpi) {
+  .skillsfull {
+    background-image: url(images/bg-skills-1600.jpg);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (min-resolution: 192dpi) {
+  .skillsfull {
+    background-image: url(images/bg-skills-1920.jpg);
+  }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1920px) and (max-resolution: 191dpi) {
+  .skillsfull {
+    background-image: url(images/bg-skills-1920.jpg);
+  }
+}
+
+@media only screen and (min-width: 1025px) and (min-resolution: 192dpi),
+  screen and (min-width: 1921px) {
+  .skillsfull {
+    background-image: url(images/bg-skills-3200.jpg);
+  }
+}

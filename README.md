@@ -1,3 +1,3 @@
 Website - JordanFWilson.com
 
-Portfolio Website for Jordan Wilson, Full Stack Developer.
+Portfolio Website for Jordan Wilson, Software Engineer.

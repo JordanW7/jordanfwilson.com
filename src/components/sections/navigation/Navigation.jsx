@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Icon } from "antd";
-import "./Navigation.css";
+import "../../../Navigation.css";
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
