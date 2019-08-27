@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Icon } from "antd";
 import "../../../Navigation.css";
+import NavigationHamburger from "./NavigationHamburger";
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,11 +28,8 @@ const Navigation = () => {
             About
           </a>
         </div>
-        <div className="mobile-menu-toggle nav-item">
-          <Icon
-            type={menuOpen ? "menu-fold" : "menu-unfold"}
-            onClick={handleMenuFold}
-          />
+        <div className="mobile-menu-toggle">
+          <NavigationHamburger onClick={handleMenuFold} />
         </div>
       </div>
       <div
