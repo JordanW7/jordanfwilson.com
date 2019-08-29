@@ -1,5 +1,6 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
+import Button from "../../common/Button";
 
 const NavIcon = styled.span`
   background: ${props => (props.open ? "transparent" : "white")};
@@ -32,24 +33,10 @@ const NavIcon = styled.span`
   }
 `;
 
-const MenuButton = styled.input`
-  display: none;
-`;
-
-const MenuIcon = styled.label`
-  cursor: pointer;
-  padding: 28px 20px;
+const StyledButton = styled(Button)`
   position: relative;
-  user-select: none;
-  /* :hover {
-    span {
-      background: red;
-    }
-    span:before,
-    span:after {
-      background: blue;
-    }
-  } */
+  margin: 10px;
+  padding: 15px 5px;
 `;
 
 const NavigationHamburger = ({ onClick = () => {} }) => {
@@ -59,18 +46,13 @@ const NavigationHamburger = ({ onClick = () => {} }) => {
     onClick();
   };
   return (
-    <Fragment>
-      <MenuButton
-        title="Toggle Navigation Menu"
-        aria-label="Toggle Navigation Menu"
-        type="checkbox"
-        id="menu-btn"
-        onClick={handleClick}
-      />
-      <MenuIcon htmlFor="menu-btn">
-        <NavIcon open={isOpen} />
-      </MenuIcon>
-    </Fragment>
+    <StyledButton
+      onClick={handleClick}
+      flatIcon
+      aria-label="Toggle Navigation Menu"
+    >
+      <NavIcon open={isOpen} />
+    </StyledButton>
   );
 };
 
