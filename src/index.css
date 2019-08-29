@@ -1,9 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,600');
+@import url("https://fonts.googleapis.com/css?family=Lato:300,600");
 
 * {
   box-sizing: border-box;
   font-display: swap;
   font-weight: 300;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
+}
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none !important;
+}
+
+:target:before {
+  display: block;
+  content: "";
+  height: 44px;
+  margin-top: -44px;
+  visibility: hidden;
+  pointer-events: none;
 }
