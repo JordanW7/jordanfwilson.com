@@ -2,9 +2,9 @@ import React from "react";
 import { Row, Col, Icon } from "antd";
 import "../../../About.css";
 
-const About = props => {
+const About = () => {
   return (
-    <section className="aboutfull">
+    <section style={{ paddingBottom: "44px" }} className="aboutfull">
       <article className="about">
         <Row type="flex">
           <Col xs={24} sm={24} md={12} lg={12} xl={12} className="about-header">
