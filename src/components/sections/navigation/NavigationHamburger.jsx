@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import Button from "../../common/Button";
 
@@ -39,19 +39,14 @@ const StyledButton = styled(Button)`
   padding: 15px 5px;
 `;
 
-const NavigationHamburger = ({ onClick = () => {} }) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const handleClick = () => {
-    setIsOpen(!isOpen);
-    onClick();
-  };
+const NavigationHamburger = ({ open, onClick = () => {} }) => {
   return (
     <StyledButton
-      onClick={handleClick}
+      onClick={onClick}
       flatIcon
       aria-label="Toggle Navigation Menu"
     >
-      <NavIcon open={isOpen} />
+      <NavIcon open={open} />
     </StyledButton>
   );
 };
