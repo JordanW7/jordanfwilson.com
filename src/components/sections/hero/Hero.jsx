@@ -8,7 +8,6 @@ const Page = styled.header`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
