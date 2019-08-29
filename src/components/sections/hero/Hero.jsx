@@ -12,8 +12,9 @@ const Page = styled.header`
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-image: url(images/bg-hero-3200.jpg);
   text-align: center;
+  padding-top: 64px;
 
   @media (pointer: coarse) {
     background-attachment: initial !important;
