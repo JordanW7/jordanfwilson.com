@@ -23,6 +23,7 @@ const Title = styled.a`
   font-weight: 500;
   margin-left: 30px;
   text-shadow: 0 0 5px #000;
+  text-transform: uppercase;
 `;
 
 const DesktopMenu = styled.div`
@@ -61,37 +62,34 @@ const MobileMenu = styled.div`
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
-  const handleMenuFold = () => {
-    setMenuOpen(!menuOpen);
-  };
+  const links = [
+    { href: "#home", label: "Home" },
+    { href: "#portfolio", label: "Portfolio" },
+    { href: "#skills", label: "Skills" },
+    { href: "#about", label: "About" }
+  ];
   return (
     <Nav>
       <NavBar>
-        <Title href="#home">JORDAN WILSON</Title>
+        <Title href="#home">Jordan Wilson</Title>
         <DesktopMenu>
-          <a href="#home">Home</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#skills">Skills</a>
-          <a href="#about">About</a>
+          {links.map(({ href, label }) => (
+            <a href={href}>{label}</a>
+          ))}
         </DesktopMenu>
         <MobileMenuToggle>
-          <NavigationHamburger open={menuOpen} onClick={handleMenuFold} />
+          <NavigationHamburger
+            open={menuOpen}
+            onClick={() => setMenuOpen(!menuOpen)}
+          />
         </MobileMenuToggle>
       </NavBar>
       <MobileMenu open={menuOpen}>
-        <a onClick={handleMenuFold} href="#home">
-          Home
-        </a>
-        <a onClick={handleMenuFold} href="#portfolio">
-          Portfolio
-        </a>
-        <a onClick={handleMenuFold} href="#skills">
-          Skills
-        </a>
-        <a onClick={handleMenuFold} href="#about">
-          About
-        </a>
+        {links.map(({ href, label }) => (
+          <a onClick={() => setMenuOpen(!menuOpen)} href={href}>
+            {label}
+          </a>
+        ))}
       </MobileMenu>
     </Nav>
   );
