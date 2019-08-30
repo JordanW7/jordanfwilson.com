@@ -1,104 +1,163 @@
 import React from "react";
-import { Row, Col, Icon } from "antd";
-import "../../../About.css";
+import styled from "styled-components";
+import { Icon } from "antd";
+
+const Section = styled.section`
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(images/bg-about-3200.jpg);
+  padding-bottom: 44px;
+  @media only screen and (max-width: 767px) {
+    background-image: url(images/bg-mobile-1600.jpg);
+  }
+  @media (pointer: coarse) {
+    background-attachment: initial !important;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) and (max-resolution: 191dpi) {
+    background-image: url(images/bg-about-1600.jpg);
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (min-resolution: 192dpi) {
+    background-image: url(images/bg-about-1920.jpg);
+  }
+  @media only screen and (min-width: 1601px) and (max-width: 1920px) and (max-resolution: 191dpi) {
+    background-image: url(images/bg-about-1920.jpg);
+  }
+  @media only screen and (min-width: 1025px) and (min-resolution: 192dpi),
+    screen and (min-width: 1921px) {
+    background-image: url(images/bg-about-3200.jpg);
+  }
+`;
+
+const Article = styled.article`
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0px 10px;
+  width: 100%;
+`;
+
+const Header = styled.header`
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+`;
+
+const Title = styled.h2`
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+  margin: 0;
+  i {
+    font-size: 50;
+  }
+`;
+
+const Card = styled.div`
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+`;
+
+const Subtitle = styled.span`
+  /* padding-top: 15px; */
+  font-size: 35px;
+  @media only screen and (max-width: 767px) {
+    display: none;
+  }
+`;
+
+const ContentHeader = styled.h3`
+  font-size: 35px;
+  font-weight: 300;
+  margin: 0;
+  opacity: 0.8;
+  text-shadow: 0 0 5px silver;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  transition: opacity 0.25s linear;
+  :hover {
+    opacity: 1;
+  }
+`;
+
+const Highlight = styled.mark`
+  font-weight: 600;
+  text-shadow: 0 0 10px cyan;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+`;
 
 const About = () => {
   return (
-    <section style={{ paddingBottom: "44px" }} className="aboutfull">
-      <article className="about">
-        <Row type="flex">
-          <Col xs={24} sm={24} md={12} lg={12} xl={12} className="about-header">
-            <span id="about">
-              <Icon type="message" style={{ fontSize: "50" }} /> About
-            </span>
-          </Col>
-          <Col xs={0} sm={0} md={12} lg={12} xl={12} className="about-header2">
-            <span className="about-description">Here's why I build.</span>
-          </Col>
-          <Col span={24} className="about-card">
-            <p>
-              <mark className="about-contents-header">#Technology</mark>
-              <br />
-              The improvements in technology over the last short 15 years have
-              been huge. We interact with technology on a daily basis and the
-              tech industry now has one of the most significant impacts on the
-              world. The industry is constantly changing and{" "}
-              <mark className="highlight">
-                I believe that change is good, and that learning should never
-                stop.
-              </mark>{" "}
-              I love learning new things on a daily basis as a Developer and
-              being at the forefront of this phenomenal industry. Over the last
-              several years things have begun moving incredibly fast and web
-              development is becoming even more important as Web Apps replace
-              traditional software.
-            </p>
-
-            <p>
-              <mark className="about-contents-header">#ThinkDifferent</mark>
-              <br />I completed a{" "}
-              <mark className="highlight">
-                Bachelor of Music with Honours (1st) in Music Composition
-              </mark>{" "}
-              after leaving High School, which gives me a unique background and
-              skillset. Thinking creatively, problem solving, being responsible
-              and dependable, being able to work well with others and
-              communicate effectively, critical reflection, performing under
-              pressure, adaptability, analytical skills, attention to detail,
-              self-management, planning and time management skills are all
-              second nature to music graduates. For this reason,{" "}
-              <mark className="highlight">
-                musicians make excellent developers.
-              </mark>
-            </p>
-            <p>
-              I love a good challenge and trying new things to solve them. I
-              really enjoy the creative process of envisioning solutions to
-              problems and developing products. I now develop technology that{" "}
-              <mark className="highlight">
-                improves the way we learn, complete everyday tasks and the way
-                we do our work.
-              </mark>
-            </p>
-
-            <p>
-              <mark className="about-contents-header">#UserFocused</mark>
-              <br />I have significant end-user experience and know the{" "}
-              <mark className="highlight">
-                importance of user centered development.
-              </mark>{" "}
-              I am obsessed with details (in a good way), clean beautiful UIs
-              and easy-to-use functionality. Putting myself in the user’s shoes
-              during development, then fine-tuning the product with user
-              feedback is something I spend extra time on. I know that often,{" "}
-              <mark className="highlight">
-                little things make all the difference.
-              </mark>
-            </p>
-            <p>
-              I gained invaluable experience from previous jobs where I taught
-              people how to use technology to improve their lives or workflow,
-              and from my own experiences as a user using a large multitude of
-              different technologies.
-            </p>
-            <p>
-              <mark className="about-contents-header">#GlobalAwareness</mark>
-              <br />
-              Having travelled extensively through 21 countries, spending the
-              most of my life in New Zealand and now living in London, I also
-              have a{" "}
-              <mark className="highlight">
-                global awareness and understanding of other cultures.
-              </mark>{" "}
-              Countries I've been to include: Australia, Austria, Belgium,
-              Cambodia, China, Czech Republic, England, France, Germany, Hong
-              Kong, Japan, Macau, the Netherlands, New Zealand, Singapore,
-              Scotland, South Korea, Thailand, U.A.E, Vietnam and Wales.
-            </p>
-          </Col>
-        </Row>
-      </article>
-    </section>
+    <Section>
+      <Article id="about">
+        <Header>
+          <Title>
+            <Icon type="message" /> About
+          </Title>
+          <Subtitle>Here's why I build.</Subtitle>
+        </Header>
+        <Card>
+          <ContentHeader>#Technology</ContentHeader>
+          <p>
+            The improvements in technology over the last short 15 years have
+            been huge. We interact with technology on a daily basis and the tech
+            industry now has one of the most significant impacts on the world.
+            The industry is constantly changing and{" "}
+            <Highlight>
+              I believe that change is good, and that learning should never
+              stop.
+            </Highlight>{" "}
+            I love learning new things on a daily basis as a Developer and being
+            at the forefront of this phenomenal industry. Over the last several
+            years things have begun moving incredibly fast and web development
+            is becoming even more important as Web Apps replace traditional
+            software.
+          </p>
+          <ContentHeader>#ThinkDifferent</ContentHeader>
+          <p>
+            I completed a{" "}
+            <Highlight>
+              Bachelor of Music with Honours (1st) in Music Composition
+            </Highlight>{" "}
+            after leaving High School, which gives me a unique background and
+            skillset. Thinking creatively, problem solving, being responsible
+            and dependable, being able to work well with others and communicate
+            effectively, critical reflection, performing under pressure,
+            adaptability, analytical skills, attention to detail,
+            self-management, planning and time management skills are all second
+            nature to music graduates. For this reason,{" "}
+            <Highlight>musicians make excellent developers.</Highlight>
+          </p>
+          <p>
+            I love a good challenge and trying new things to solve them. I
+            really enjoy the creative process of envisioning solutions to
+            problems and developing products. I now develop technology that{" "}
+            <Highlight>
+              improves the way we learn, complete everyday tasks and the way we
+              do our work.
+            </Highlight>
+          </p>
+          <ContentHeader>#UserFocused</ContentHeader>
+          <p>
+            I have significant end-user experience and know the{" "}
+            <Highlight>importance of user centered development.</Highlight> I am
+            obsessed with details (in a good way), clean beautiful UIs and
+            easy-to-use functionality. Putting myself in the user’s shoes during
+            development, then fine-tuning the product with user feedback is
+            something I spend extra time on. I know that often,{" "}
+            <Highlight>little things make all the difference.</Highlight>
+          </p>
+        </Card>
+      </Article>
+    </Section>
   );
 };
 
