@@ -14,7 +14,7 @@ const NavBar = styled.div`
   align-items: center;
   align-content: center;
   justify-content: space-between;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.93);
   height: 44px;
 `;
 

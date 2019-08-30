@@ -49,7 +49,7 @@ const Intro = styled.p`
   font-weight: 300;
 `;
 
-const Name = styled.p`
+const Name = styled.h1`
   font-size: 50px;
   font-weight: 300;
   margin-bottom: 50px;

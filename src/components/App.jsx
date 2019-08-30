@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Hero from "./sections/hero/Hero";
 import Projects from "./sections/projects/Projects";
 import Skills from "./sections/skills/Skills";
@@ -8,7 +8,7 @@ import Navigation from "./sections/navigation/Navigation";
 
 const App = () => {
   return (
-    <div className="app">
+    <Fragment>
       <Navigation />
       <Hero />
       <main>
@@ -17,7 +17,7 @@ const App = () => {
         <About />
       </main>
       <Footer />
-    </div>
+    </Fragment>
   );
 };
 

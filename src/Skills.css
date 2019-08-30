@@ -12,15 +12,6 @@
   font-size: 35px;
 }
 
-:target:before {
-  display: block;
-  content: "";
-  height: 44px;
-  margin-top: -44px;
-  visibility: hidden;
-  pointer-events: none;
-}
-
 .skills {
   max-width: 900px;
   margin: 0 auto;

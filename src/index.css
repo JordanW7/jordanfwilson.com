@@ -26,7 +26,6 @@ a:hover {
   display: block;
   content: "";
   height: 44px;
-  margin-top: -44px;
   visibility: hidden;
   pointer-events: none;
 }
