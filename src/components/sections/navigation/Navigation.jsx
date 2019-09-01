@@ -74,7 +74,9 @@ const Navigation = () => {
         <Title href="#home">Jordan Wilson</Title>
         <DesktopMenu>
           {links.map(({ href, label }) => (
-            <a href={href}>{label}</a>
+            <a key={label} href={href}>
+              {label}
+            </a>
           ))}
         </DesktopMenu>
         <MobileMenuToggle>
@@ -86,7 +88,11 @@ const Navigation = () => {
       </NavBar>
       <MobileMenu open={menuOpen}>
         {links.map(({ href, label }) => (
-          <a onClick={() => setMenuOpen(!menuOpen)} href={href}>
+          <a
+            key={`mobile-${label}`}
+            onClick={() => setMenuOpen(!menuOpen)}
+            href={href}
+          >
             {label}
           </a>
         ))}
