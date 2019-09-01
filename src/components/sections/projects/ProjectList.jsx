@@ -16,7 +16,7 @@ const projectArray = [
     image: "/screenshots/portfolio.jpg",
     appLink: "https://jordanfwilson.com",
     frontLink: "https://github.com/JordanW7/jordanfwilson.com",
-    tags: ["JavaScript", "React.js", "Styled Components"]
+    tags: ["JavaScript", "ES6", "React", "Styled Components"]
   },
   {
     name: "HermesCS",
@@ -27,18 +27,15 @@ const projectArray = [
     backLink: "https://github.com/JordanW7/HermesCS-api",
     appLink: "https://hermescs.xyz",
     tags: [
+      "JavaScript",
       "ES6",
       "React",
       "Redux",
       "Node.js",
-      "Express",
+      "Express.js",
       "PostgreSQL",
       "Redis",
-      "bcrypt",
-      "JWT",
-      "Docker",
-      "Prettier",
-      "CircleCI"
+      "Docker"
     ]
   },
   {
@@ -49,7 +46,7 @@ const projectArray = [
     frontLink: "https://github.com/JordanW7/face-recognition",
     backLink: "https://github.com/JordanW7/face-recognition-backend",
     appLink: "https://facerecognition77.herokuapp.com/",
-    tags: ["ES6", "React", "Node.js", "Express", "PostgreSQL"]
+    tags: ["JavaScript", "ES6", "React", "Node.js", "Express.js", "PostgreSQL"]
   }
 ];
 

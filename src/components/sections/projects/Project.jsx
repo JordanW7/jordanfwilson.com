@@ -36,12 +36,12 @@ const Project = ({
         <div>
           {frontLink && (
             <ProjectButtons
-              Type={backLink ? "front" : "code"}
-              Link={frontLink}
+              type={backLink ? "Frontend" : "Code"}
+              link={frontLink}
             />
           )}
-          {backLink && <ProjectButtons Type="back" Link={backLink} />}
-          <ProjectButtons Type="app" Link={appLink} />
+          {backLink && <ProjectButtons type="Backend" link={backLink} />}
+          <ProjectButtons type="app" link={appLink} />
         </div>
       </div>
       <Row>

@@ -9,7 +9,7 @@ const BaseButton = styled.button`
   user-select: none;
   border-radius: 4px;
   padding: 0px 16px;
-  height: 40px;
+  height: 30px;
   vertical-align: middle;
   font-weight: 500;
   transition: background-color 0.2s ease;
@@ -94,14 +94,15 @@ const Button = props => {
 
   const buttonColor = "color" in props ? color : white ? "#fff" : "";
 
-  const buttonHoverColor =
-    "hoverColor" in props
-      ? hoverColor
-      : white
-      ? !flat && !outlined
-        ? "#f2f2f2"
-        : "rgba(255, 255, 255, 0.2)"
-      : "";
+  const buttonHoverColor = hoverColor
+    ? hoverColor
+    : white
+    ? !flat && !outlined
+      ? "#f2f2f2"
+      : "rgba(255, 255, 255, 0.1)"
+    : "";
+
+  console.log("hover", buttonHoverColor);
 
   return (
     <Component

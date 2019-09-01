@@ -1,46 +1,40 @@
 import React from "react";
-import { Button } from "antd";
+import Button from "../../common/Button";
+import styled from "styled-components";
+import { Icon } from "antd";
 
-const ProjectButtons = ({ Type, Link }) => {
-  if (Link === "") {
-    return null;
+const StyledButton = styled(Button)`
+  i {
+    color: rgba(255, 255, 255, 0.9);
+    margin-right: 5px;
   }
-  if (Type === "app") {
+  margin: 0px 5px;
+`;
+
+const ProjectButtons = ({ type, link }) => {
+  if (type === "app") {
     return (
-      <a href={Link} target="_blank" rel="noopener noreferrer">
-        <Button size="small" type="primary" className="project-button">
+      <a>
+        <StyledButton
+          white
+          outlined
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Visit
-        </Button>
+        </StyledButton>
       </a>
     );
   }
-  if (Type === "code") {
-    return (
-      <a href={Link} target="_blank" rel="noopener noreferrer">
-        <Button size="small" icon="github" className="project-button">
-          Code
-        </Button>
-      </a>
-    );
-  }
-  if (Type === "front") {
-    return (
-      <a href={Link} target="_blank" rel="noopener noreferrer">
-        <Button size="small" icon="github" className="project-button">
-          Frontend
-        </Button>
-      </a>
-    );
-  }
-  if (Type === "back") {
-    return (
-      <a href={Link} target="_blank" rel="noopener noreferrer">
-        <Button size="small" icon="github" className="project-button">
-          Backend
-        </Button>
-      </a>
-    );
-  }
+  return (
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      <StyledButton white outlined className="project-button">
+        <Icon type="github" />
+        {type}
+      </StyledButton>
+    </a>
+  );
 };
 
 export default ProjectButtons;
