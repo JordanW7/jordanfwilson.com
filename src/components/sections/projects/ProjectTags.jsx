@@ -6,6 +6,7 @@ const Tags = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 10px;
   div:not(:first-child) {
     margin-left: 8px;
   }

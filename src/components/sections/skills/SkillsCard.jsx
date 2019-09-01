@@ -6,7 +6,7 @@ const Card = styled.div`
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.8);
   border: 1px solid white;
-  padding: 5px;
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,5 +1,5 @@
-import React from "react";
-import Project from "./Project";
+import React, { Fragment } from "react";
+import ProjectCard from "./ProjectCard";
 
 const projectArray = [
   // {
@@ -52,22 +52,24 @@ const projectArray = [
 
 const ProjectList = () => {
   return (
-    <div>
-      {projectArray.map((project, i) => {
-        return (
-          <Project
-            key={i}
-            name={projectArray[i].name}
-            description={projectArray[i].description}
-            image={projectArray[i].image}
-            frontLink={projectArray[i].frontLink}
-            backLink={projectArray[i].backLink}
-            appLink={projectArray[i].appLink}
-            tags={projectArray[i].tags}
-          />
-        );
-      })}
-    </div>
+    <Fragment>
+      {projectArray.map(
+        ({ name, description, image, frontLink, backLink, appLink, tags }) => {
+          return (
+            <ProjectCard
+              key={name}
+              name={name}
+              description={description}
+              image={image}
+              frontLink={frontLink}
+              backLink={backLink}
+              appLink={appLink}
+              tags={tags}
+            />
+          );
+        }
+      )}
+    </Fragment>
   );
 };
 
