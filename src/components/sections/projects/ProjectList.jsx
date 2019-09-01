@@ -2,13 +2,21 @@ import React from "react";
 import Project from "./Project";
 
 const projectArray = [
+  // {
+  //   name: "Red Sift",
+  //   description:
+  //     "Currently working for Red Sift as a Software Engineer, working on security apps such as OnDMARC and OnINBOX.",
+  //   image: "/screenshots/redsift.jpg",
+  //   appLink: "https://redsift.com",
+  //   tags: ["JavaScript", "React.js", "Redux", "Node.js", "Python"]
+  // },
   {
-    name: "Red Sift",
-    description:
-      "Currently working for Red Sift as a Software Engineer, working on security apps such as OnDMARC and OnINBOX.",
-    image: "/screenshots/redsift.jpg",
-    appLink: "https://redsift.com",
-    tags: ["JavaScript", "React.js", "Redux", "Node.js", "Python"]
+    name: "jordanfwilson.com",
+    description: "",
+    image: "/screenshots/portfolio.jpg",
+    appLink: "https://jordanfwilson.com",
+    frontLink: "https://github.com/JordanW7/jordanfwilson.com",
+    tags: ["JavaScript", "React.js", "Styled Components"]
   },
   {
     name: "HermesCS",
