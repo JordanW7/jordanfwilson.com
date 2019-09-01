@@ -66,7 +66,6 @@ const Card = styled.div`
 `;
 
 const Subtitle = styled.span`
-  /* padding-top: 15px; */
   font-size: 35px;
   @media only screen and (max-width: 767px) {
     display: none;
