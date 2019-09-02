@@ -48,7 +48,7 @@ const Title = styled.h2`
   color: white;
   font-size: 50px;
   font-weight: 300;
-  margin: 0;
+  margin: 10px 0px 0px 0px;
   i {
     font-size: 50;
   }
@@ -138,7 +138,8 @@ const About = () => {
           <p>
             I love a good challenge and trying new things to solve them. I
             really enjoy the creative process of envisioning solutions to
-            problems and developing products. I now develop technology that{" "}
+            problems and developing products. I am passionate about developing
+            technology that{" "}
             <Highlight>
               improves the way we learn, complete everyday tasks and the way we
               do our work.
@@ -146,7 +147,7 @@ const About = () => {
           </p>
           <ContentHeader>#UserFocused</ContentHeader>
           <p>
-            I have significant end-user experience and know the{" "}
+            I know the{" "}
             <Highlight>importance of user centered development.</Highlight> I am
             obsessed with details (in a good way), clean beautiful UIs and
             easy-to-use functionality. Putting myself in the user’s shoes during

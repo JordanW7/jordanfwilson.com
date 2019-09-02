@@ -48,12 +48,12 @@ const ScreenshotContainer = styled.a`
 `;
 
 const Screenshot = styled.img`
+  height: 100%;
   width: 90%;
-  height: auto;
+  margin: auto;
   border: 5px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 8px dimgrey;
   transition: box-shadow 0.5s linear;
-  margin: auto;
   :hover {
     box-shadow: 0 0 15px white;
   }

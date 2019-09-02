@@ -50,7 +50,7 @@ const Title = styled.h2`
   color: white;
   font-size: 50px;
   font-weight: 300;
-  margin: 0;
+  margin: 10px 0px 0px 0px;
   i {
     font-size: 50;
   }
