@@ -114,7 +114,7 @@ const About = () => {
               I believe that change is good, and that learning should never
               stop.
             </Highlight>{" "}
-            I love learning new things on a daily basis as a Developer and being
+            I love learning new things on a daily basis as a developer and being
             at the forefront of this phenomenal industry. Over the last several
             years things have begun moving incredibly fast and web development
             is becoming even more important as Web Apps replace traditional
@@ -147,7 +147,7 @@ const About = () => {
           </p>
           <ContentHeader>#UserFocused</ContentHeader>
           <p>
-            I know the{" "}
+            I understand the{" "}
             <Highlight>importance of user centered development.</Highlight> I am
             obsessed with details (in a good way), clean beautiful UIs and
             easy-to-use functionality. Putting myself in the user’s shoes during
