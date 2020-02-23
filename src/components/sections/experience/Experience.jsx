@@ -78,7 +78,7 @@ const Experience = () => {
           roleTitle="Software Engineer"
           company="Red Sift"
           companyLink="https://redsift.com"
-          dates="December 2018 - Current"
+          dates="December 2018 - Present"
           skills={[
             "JavaScript",
             "ES6",
