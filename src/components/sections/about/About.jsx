@@ -138,11 +138,10 @@ const About = () => {
           <p>
             I love a good challenge and trying new things to solve them. I
             really enjoy the creative process of envisioning solutions to
-            problems and developing products. I am passionate about developing
-            technology that{" "}
+            problems and developing products. I am passionate about developing{" "}
             <Highlight>
-              improves the way we learn, complete everyday tasks and the way we
-              do our work.
+              technology that improves the way we learn, complete everyday tasks
+              and the way we do our work.
             </Highlight>
           </p>
           <ContentHeader>#UserFocused</ContentHeader>
