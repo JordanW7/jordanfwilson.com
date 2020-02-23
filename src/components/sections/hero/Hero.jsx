@@ -104,7 +104,8 @@ const Link = styled.a`
 const Dot = styled.span`
   font-size: 40px;
   position: relative;
-  bottom: 5px;
+  top: 5px;
+  margin: 0px 5px;
   padding-left: 5px;
   color: white;
   opacity: 0.7;
@@ -121,6 +122,11 @@ const LinkText = styled.span`
   }
 `;
 
+const StyledIcon = styled(Icon)`
+  position: relative;
+  top: 5px;
+`;
+
 const Hero = () => {
   return (
     <Page id="home">
@@ -135,7 +141,7 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Icon type="linkedin" theme="filled" />
+          <StyledIcon type="linkedin" theme="filled" />
           <LinkText>Linkedin</LinkText>
         </Link>
         <Dot>·</Dot>
@@ -144,11 +150,11 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Icon type="github" theme="filled" />
+          <StyledIcon type="github" theme="filled" />
           <LinkText>Github</LinkText>
         </Link>
       </LinkRow>
-      <Arrow href="#portfolio">﹀</Arrow>
+      <Arrow href="#experience">﹀</Arrow>
     </Page>
   );
 };
