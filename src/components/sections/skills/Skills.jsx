@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon } from "antd";
+import HeaderIcon from "../../common/HeaderIcon";
 import styled from "styled-components";
 import SkillsCard from "./SkillsCard";
 
@@ -10,6 +10,8 @@ const Section = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  padding-top: 10px;
+  padding-bottom: 30px;
   @media only screen and (max-width: 767px) {
     background-image: url(images/bg-mobile-1600.jpg);
   }
@@ -95,7 +97,7 @@ const Skills = () => {
       <Article id="skills">
         <Header>
           <Title>
-            <Icon type="fire" /> Skills
+            <HeaderIcon type="fire" /> Skills
           </Title>
           <Subtitle>Here's how I build.</Subtitle>
         </Header>

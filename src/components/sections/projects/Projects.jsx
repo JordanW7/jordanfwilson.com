@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Icon } from "antd";
+import HeaderIcon from "../../common/HeaderIcon";
 import ProjectList from "./ProjectList";
 
 const Section = styled.section`
@@ -8,6 +8,8 @@ const Section = styled.section`
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 30px;
   background-image: url(images/bg-portfolio-3200.jpg);
   @media only screen and (max-width: 767px) {
     background-image: url(images/bg-mobile-1600.jpg);
@@ -68,7 +70,7 @@ const Portfolio = () => {
       <Container id="portfolio">
         <Header>
           <Title>
-            <Icon type="heart" />
+            <HeaderIcon type="heart" />
             Portfolio
           </Title>
           <Subtitle>Here's what I build.</Subtitle>

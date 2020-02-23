@@ -68,10 +68,14 @@ const colors = {
   PostgreSQL: {
     color: "rgb(151,203,245)",
     border: "rgb(151,203,245,0.5)"
+  },
+  Python: {
+    color: "rgb(125, 188, 241)",
+    border: "rgb(125, 188, 241,0.5)"
   }
 };
 
-const ProjectTags = ({ tags }) => {
+const SkillTags = ({ tags }) => {
   return (
     <Tags>
       {tags.map(tag => {
@@ -85,4 +89,4 @@ const ProjectTags = ({ tags }) => {
   );
 };
 
-export default ProjectTags;
+export default SkillTags;

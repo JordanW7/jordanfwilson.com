@@ -47,7 +47,7 @@ const MobileMenu = styled.div`
   width: 100%;
   background: rgb(30, 30, 30);
   overflow: hidden;
-  height: ${props => (props.open ? "200px" : "0")};
+  height: ${props => (props.open ? "230px" : "0")};
   transition: height 0.3s ease-out;
   text-align: left;
   a {
@@ -64,6 +64,7 @@ const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const links = [
     { href: "#home", label: "Home" },
+    { href: "#experience", label: "Experience" },
     { href: "#portfolio", label: "Portfolio" },
     { href: "#skills", label: "Skills" },
     { href: "#about", label: "About" }

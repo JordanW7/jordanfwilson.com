@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Icon } from "antd";
+import HeaderIcon from "../../common/HeaderIcon";
 
 const Section = styled.section`
   background-position: center center;
@@ -8,7 +8,8 @@ const Section = styled.section`
   background-size: cover;
   background-attachment: fixed;
   background-image: url(images/bg-about-3200.jpg);
-  padding-bottom: 44px;
+  padding-bottom: 74px;
+  padding-top: 10px;
   @media only screen and (max-width: 767px) {
     background-image: url(images/bg-mobile-1600.jpg);
   }
@@ -55,7 +56,6 @@ const Title = styled.h2`
 `;
 
 const Card = styled.div`
-  margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.8);
   border: 1px solid white;
   border-radius: 4px;
@@ -99,7 +99,7 @@ const About = () => {
       <Article id="about">
         <Header>
           <Title>
-            <Icon type="message" /> About
+            <HeaderIcon type="message" /> About
           </Title>
           <Subtitle>Here's why I build.</Subtitle>
         </Header>

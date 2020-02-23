@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectTags from "./ProjectTags";
+import SkillTags from "../../common/SkillTags";
 import ProjectButtons from "./ProjectButtons";
 import styled from "styled-components";
 
@@ -28,6 +28,9 @@ const Title = styled.h3`
   font-size: 50px;
   font-weight: 300;
   font-size: 36px;
+  @media only screen and (max-width: 767px) {
+    font-size: 30px;
+  }
   margin: 0;
 `;
 
@@ -113,7 +116,7 @@ const ProjectCard = ({
         </ScreenshotContainer>
 
         <ProjectInfo>
-          <ProjectTags tags={tags} />
+          <SkillTags tags={tags} />
           <p>{description}</p>
         </ProjectInfo>
       </CardContent>
