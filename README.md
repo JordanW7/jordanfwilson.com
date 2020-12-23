@@ -1,3 +1,3 @@
-Website - JordanFWilson.com
+# JordanFWilson.com
 
-Portfolio Website for Jordan Wilson, Software Engineer.
+> Blog & Portfolio Website for Jordan Wilson, Software Engineer.
