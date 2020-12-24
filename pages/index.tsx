@@ -5,34 +5,11 @@ import Link from "next/link";
 import Date from "../components/date";
 import { GetStaticProps } from "next";
 
-// import React, { Fragment } from "react";
-// import Hero from "./sections/hero/Hero";
-// import Footer from "./sections/footer/Footer";
-// import Navigation from "./sections/navigation/Navigation";
-
-// import Experience from "./sections/experience/Experience";
-// import Projects from "./sections/projects/Projects";
-// import Skills from "./sections/skills/Skills";
-// import About from "./sections/about/About";
-
-// const App = () => {
-//   return (
-//     <Fragment>
-//       <Navigation />
-//       <Hero />
-//       <main>
-//         <Experience />
-//         <Projects />
-//         <Skills />
-//         <About />
-//       </main>
-//       <Footer />
-//     </Fragment>
-//   );
-// };
-
-// export default App;
-
+import Hero from "../components/Hero";
+import Experience from "../components/Experience";
+import Projects from "../components/Projects";
+import Skills from "../components/Skills";
+import About from "../components/About";
 
 const Home = ({
   allPostsData,
@@ -48,6 +25,11 @@ const Home = ({
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <Hero />
+      <Experience />
+      <Projects />
+      <Skills />
+      <About />
       <section>
         <h2>Blog</h2>
         <ul>

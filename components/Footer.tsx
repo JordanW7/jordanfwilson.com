@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Icon, BackTop } from "antd";
 import styled from "styled-components";
 
@@ -11,11 +11,7 @@ const Container = styled.footer`
   color: white;
   font-size: 15px;
   opacity: 0.8;
-  margin-top: -44px;
   height: 44px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
 `;
 
