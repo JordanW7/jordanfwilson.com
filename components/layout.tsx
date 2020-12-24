@@ -1,69 +1,28 @@
 import Head from "next/head";
-import Link from "next/link";
-import styled from "styled-components";
+import Navigation from "./Navigation";
+import Footer from "./Footer";
 
-const Container = styled.div`
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
-`;
+// const Container = styled.div`
+//   max-width: 36rem;
+//   padding: 0 1rem;
+//   margin: 3rem auto 6rem;
+// `;
 
-const name = "Your Name";
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "Jordan Wilson | Software Engineer";
 
-export default function Layout({
-  children,
-  home,
-}: {
-  children: React.ReactNode;
-  home?: boolean;
-}) {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <Container>
+    <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
-        <meta
-          property="og:image"
-          content={`https://og-image.now.sh/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-        />
-        <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header>
-        {home ? (
-          <>
-            <img src="/images/profile.jpg" alt={name} />
-            <h1>{name}</h1>
-          </>
-        ) : (
-          <>
-            <Link href="/">
-              <a>
-                <img src="/images/profile.jpg" alt={name} />
-              </a>
-            </Link>
-            <h2>
-              <Link href="/">
-                <a>{name}</a>
-              </Link>
-            </h2>
-          </>
-        )}
+        <Navigation />
       </header>
       <main>{children}</main>
-      {!home && (
-        <div>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
-    </Container>
+      <Footer />
+    </>
   );
-}
+};
+
+export default Layout;
