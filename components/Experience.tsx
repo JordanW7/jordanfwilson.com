@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import HeaderIcon from "./common/HeaderIcon";
 import ExperienceCard from "./ExperienceCard";

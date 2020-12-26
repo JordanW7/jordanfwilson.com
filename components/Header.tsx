@@ -1,20 +1,21 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import Link from "next/link";
 import styled from "styled-components";
 import NavigationHamburger from "./NavigationHamburger";
 
-const Nav = styled.nav`
+const Header = styled.header`
   z-index: 1;
   position: sticky;
   width: 100%;
-  color: #fff;
+  /* color: #fff; */
 `;
 
-const NavBar = styled.div`
+const NavBar = styled.nav`
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: space-between;
-  background: rgba(0, 0, 0, 0.93);
+  /* background: rgba(0, 0, 0, 0.93); */
   height: 44px;
 `;
 
@@ -22,7 +23,7 @@ const Title = styled.a`
   font-size: 20px;
   font-weight: 500;
   margin-left: 30px;
-  text-shadow: 0 0 5px #000;
+  /* text-shadow: 0 0 5px #000; */
   text-transform: uppercase;
 `;
 
@@ -47,7 +48,7 @@ const MobileMenu = styled.div`
   width: 100%;
   background: rgb(30, 30, 30);
   overflow: hidden;
-  height: ${props => (props.open ? "230px" : "0")};
+  height: ${(props) => (props.open ? "230px" : "0")};
   transition: height 0.3s ease-out;
   text-align: left;
   a {
@@ -63,21 +64,22 @@ const MobileMenu = styled.div`
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const links = [
-    { href: "#home", label: "Home" },
-    { href: "#experience", label: "Experience" },
-    { href: "#portfolio", label: "Portfolio" },
-    { href: "#skills", label: "Skills" },
-    { href: "#about", label: "About" }
+    { href: "/about", label: "About" },
+    { href: "/blog", label: "Blog" },
   ];
   return (
-    <Nav>
+    <Header>
       <NavBar>
-        <Title href="#home">Jordan Wilson</Title>
+        <Title>
+          <Link href="/">
+            <a>Jordan Wilson</a>
+          </Link>
+        </Title>
         <DesktopMenu>
           {links.map(({ href, label }) => (
-            <a key={label} href={href}>
-              {label}
-            </a>
+            <Link key={label} href={href}>
+              <a>{label}</a>
+            </Link>
           ))}
         </DesktopMenu>
         <MobileMenuToggle>
@@ -89,16 +91,12 @@ const Navigation = () => {
       </NavBar>
       <MobileMenu open={menuOpen}>
         {links.map(({ href, label }) => (
-          <a
-            key={`mobile-${label}`}
-            onClick={() => setMenuOpen(!menuOpen)}
-            href={href}
-          >
-            {label}
-          </a>
+          <Link key={`mobile-${label}`} href={href}>
+            <a onClick={() => setMenuOpen(!menuOpen)}>{label}</a>
+          </Link>
         ))}
       </MobileMenu>
-    </Nav>
+    </Header>
   );
 };
 

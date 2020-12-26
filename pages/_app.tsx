@@ -23,11 +23,11 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: white;
+  color: inherit;
   text-decoration: none !important;
 }
 
-a:hover {
+/* a:hover {
   opacity: 1;
   text-shadow: 0 0 5px silver;
   transition: opacity 0.25s linear, text-shadow 0.25s linear;
@@ -39,7 +39,7 @@ a:hover {
   height: 44px;
   visibility: hidden;
   pointer-events: none;
-}
+} */
 
 `;
 

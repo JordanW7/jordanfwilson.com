@@ -1,4 +1,3 @@
-
 import { Icon, BackTop } from "antd";
 import styled from "styled-components";
 
@@ -6,9 +5,11 @@ const Container = styled.footer`
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: rgba(0, 0, 0, 0.9);
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: rgba(19, 15, 235, 0.1) -2px -14px 15px -10px;
   padding: 10px;
-  color: white;
+  /* color: white; */
   font-size: 15px;
   opacity: 0.8;
   height: 44px;

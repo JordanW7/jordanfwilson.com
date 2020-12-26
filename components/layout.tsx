@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styled from "styled-components";
-import Navigation from "./Navigation";
+import Header from "./Header";
 import Footer from "./Footer";
 
 // const Container = styled.div`
@@ -79,9 +79,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        <Navigation />
-      </header>
+      <Header />
       <main>{children}</main>
       <Footer />
     </>

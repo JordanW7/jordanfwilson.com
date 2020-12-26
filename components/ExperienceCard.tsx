@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import SkillTags from "./common/SkillTags";
 
@@ -62,7 +61,7 @@ const ExperienceCard = ({
   companyLink,
   dates,
   skills,
-  children
+  children,
 }) => {
   return (
     <Card>
