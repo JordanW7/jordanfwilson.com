@@ -6,7 +6,10 @@ import NavigationHamburger from "./NavigationHamburger";
 const Header = styled.header`
   z-index: 1;
   position: sticky;
+  top: 0px;
   width: 100%;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   /* color: #fff; */
 `;
 

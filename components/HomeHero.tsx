@@ -62,7 +62,7 @@ const HomeHero = () => {
   return (
     <Section id="home">
       <Content>
-        <Title>Creative Problem Solving and Software Engineering.</Title>
+        <Title>Creative Problem Solver and Software Engineer.</Title>
         <Subtitle>This is my story.</Subtitle>
       </Content>
     </Section>
