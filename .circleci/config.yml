@@ -1,0 +1,22 @@
+version: 2.1
+orbs:
+  node: circleci/node@4.1.0
+jobs:
+  nodejs:
+    version: 13.11.0
+    steps:
+      - checkout
+      - restore_cache: # special step to restore the dependency cache
+          # Read about caching dependencies: https://circleci.com/docs/2.0/caching/
+          key: dependency-cache-{{ checksum "package-lock.json" }}
+      - run: cd npm i && npm run lint
+      - save_cache: # special step to save the dependency cache
+          key: dependency-cache-{{ checksum "package-lock.json" }}
+          paths:
+            - ./node_modules
+workflows:
+  version: 2.1
+  test:
+    jobs:
+      - nodejs:
+          context: org-global
