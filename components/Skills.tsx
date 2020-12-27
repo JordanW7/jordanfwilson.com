@@ -1,4 +1,3 @@
-
 import HeaderIcon from "./common/HeaderIcon";
 import styled from "styled-components";
 import SkillsCard from "./SkillsCard";
@@ -70,25 +69,25 @@ const skillList = [
     name: "Front-End Development",
     icon: "desktop",
     description:
-      "· HTML5 · CSS3 · JavaScript · ES6 · React.js · Redux · Styled Components"
+      "· HTML5 · CSS3 · JavaScript · ES6 · React.js · Redux · Styled Components",
   },
   {
     name: "Back-End Development",
     icon: "database",
-    description: "· Node.js · Python · PostgreSQL · Redis"
+    description: "· Node.js · Python · PostgreSQL · Redis",
   },
   {
     name: "Development Environment",
     icon: "tool",
     description:
-      "· Docker · CircleCI · Firebase · Heroku · Git · Lint · Chrome DevTools · command-line · npm"
+      "· Docker · CircleCI · Firebase · Heroku · Git · Lint · Chrome DevTools · command-line · npm",
   },
   {
     name: "Architecture Principles",
     icon: "bulb",
     description:
-      "· Responsive web design · Mobile-first development · Performance optimized · Keep it simple"
-  }
+      "· Responsive web design · Mobile-first development · Performance optimized · Keep it simple",
+  },
 ];
 
 const Skills = () => {

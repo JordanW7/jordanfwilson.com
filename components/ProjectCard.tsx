@@ -1,4 +1,3 @@
-
 import SkillTags from "./common/SkillTags";
 import ProjectButtons from "./ProjectButtons";
 import styled from "styled-components";
@@ -83,7 +82,7 @@ const ProjectCard = ({
   frontLink,
   backLink,
   appLink,
-  tags
+  tags,
 }) => {
   return (
     <Card>

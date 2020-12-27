@@ -27,8 +27,10 @@
     }
   },
   "rules": {
-    "react/prop-types": [0],
-    "react/display-name": [0]
+    "react/prop-types": "off",
+    "react/display-name": "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
   },
   "overrides": [
     {
@@ -46,7 +48,13 @@
         "plugin:import/typescript",
         "plugin:prettier/recommended",
         "prettier/react"
-      ]
+      ],
+      "rules": {
+        "react/prop-types": "off",
+        "react/display-name": "off",
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off"
+      }
     }
   ]
 }
