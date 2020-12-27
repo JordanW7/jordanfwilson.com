@@ -1,4 +1,3 @@
-import { Icon } from "antd";
 import styled from "styled-components";
 import Link from "next/link";
 import Date from "./date";
@@ -40,26 +39,6 @@ const Section = styled.section`
     screen and (min-width: 1921px) {
     background-image: url(images/bg-hero-3200.jpg);
   } */
-`;
-
-const Content = styled.div`
-  width: 75%;
-`;
-
-const Title = styled.h1`
-  font-weight: 300;
-  /* color: white; */
-  font-size: 34px;
-  line-height: 46px;
-  margin: 0 0 24px;
-`;
-
-const Subtitle = styled.p`
-  font-weight: 300;
-  /* color: white; */
-  font-size: 30px;
-  line-height: 36px;
-  margin: 0px;
 `;
 
 const HomeBlog = ({ allPostsData }) => {

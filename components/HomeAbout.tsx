@@ -1,4 +1,3 @@
-import { Icon } from "antd";
 import styled from "styled-components";
 
 const Section = styled.section`
@@ -48,14 +47,6 @@ const Title = styled.h1`
   font-size: 34px;
   line-height: 46px;
   margin: 0 0 24px;
-`;
-
-const Subtitle = styled.p`
-  font-weight: 300;
-  /* color: white; */
-  font-size: 30px;
-  line-height: 36px;
-  margin: 0px;
 `;
 
 const HomeAbout = () => {

@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import Button from "./common/Button";
 import styled from "styled-components";
-import { Icon } from "antd";
+// import { Icon } from "antd";
 
 const StyledButton = styled(Button)`
   i {
@@ -19,7 +19,7 @@ const ProjectButtons = ({ type, link }) => {
           "Visit"
         ) : (
           <Fragment>
-            <Icon type="github" />
+            {/* <Icon type="github" /> */}
             {type}
           </Fragment>
         )}

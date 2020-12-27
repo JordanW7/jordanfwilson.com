@@ -1,4 +1,3 @@
-import { Icon, BackTop } from "antd";
 import styled from "styled-components";
 
 const Container = styled.footer`
@@ -39,7 +38,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Icon type="linkedin" theme="filled" />
+        {/* <Icon type="linkedin" theme="filled" /> */}
         <LinkText> Linkedin</LinkText>
       </Link>
       <Link
@@ -47,14 +46,13 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Icon type="github" theme="filled" />
+        {/* <Icon type="github" theme="filled" /> */}
         <LinkText>Github</LinkText>
       </Link>
       <span>
-        <Icon type="copyright" style={{ fontSize: 15 }} />
+        {/* <Icon type="copyright" style={{ fontSize: 15 }} /> */}
         {` ${new Date().getFullYear()} Jordan Wilson`}
       </span>
-      <BackTop visibilityHeight={1000} />
     </Container>
   );
 };

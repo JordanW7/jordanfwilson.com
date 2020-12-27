@@ -95,7 +95,7 @@ const Navigation = () => {
       <MobileMenu open={menuOpen}>
         {links.map(({ href, label }) => (
           <Link key={`mobile-${label}`} href={href}>
-            <a onClick={() => setMenuOpen(!menuOpen)}>{label}</a>
+            <a>{label}</a>
           </Link>
         ))}
       </MobileMenu>

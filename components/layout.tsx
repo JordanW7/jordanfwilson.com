@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styled from "styled-components";
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -65,11 +64,6 @@ import Footer from "./Footer";
 //     <div id="root"></div>
 //   </body>
 // </html>
-
-const Main = styled.main`
-  min-height: 100vh;
-  min-width: 100vw;
-`;
 
 export const siteTitle = "Jordan Wilson | Software Engineer";
 

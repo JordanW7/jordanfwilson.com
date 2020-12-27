@@ -1,4 +1,4 @@
-import { Icon } from "antd";
+// import { Icon } from "antd";
 import styled from "styled-components";
 
 const Card = styled.div`
@@ -58,7 +58,7 @@ const SkillCard = ({ name, description, icon }) => {
   return (
     <Card>
       <CardTitle>
-        <Icon type={icon} />
+        {/* <Icon type={icon} /> */}
         {name}
       </CardTitle>
       <CardDetails>{description}</CardDetails>

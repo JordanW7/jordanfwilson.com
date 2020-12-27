@@ -38,7 +38,7 @@ const StyledButton = styled(Button)`
   padding: 15px 5px;
 `;
 
-const NavigationHamburger = ({ open, onClick = () => {} }) => {
+const NavigationHamburger = ({ open, onClick }) => {
   return (
     <StyledButton
       onClick={onClick}

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import HeaderIcon from "./common/HeaderIcon";
+// import HeaderIcon from "./common/HeaderIcon";
 
 const Section = styled.section`
   background-position: center center;
@@ -97,9 +97,7 @@ const About = () => {
     <Section>
       <Article id="about">
         <Header>
-          <Title>
-            <HeaderIcon type="message" /> About
-          </Title>
+          <Title>{/* <HeaderIcon type="message" /> About */}</Title>
           <Subtitle>Here's why I build.</Subtitle>
         </Header>
         <Card>

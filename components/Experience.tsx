@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import HeaderIcon from "./common/HeaderIcon";
+// import HeaderIcon from "./common/HeaderIcon";
 import ExperienceCard from "./ExperienceCard";
 
 const Section = styled.section`
@@ -68,7 +68,7 @@ const Experience = () => {
       <Container id="experience">
         <Header>
           <Title>
-            <HeaderIcon type="laptop" />
+            {/* <HeaderIcon type="laptop" /> */}
             Experience
           </Title>
           <Subtitle>Here's where I've worked.</Subtitle>

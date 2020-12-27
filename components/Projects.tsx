@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import HeaderIcon from "./common/HeaderIcon";
+// import HeaderIcon from "./common/HeaderIcon";
 import ProjectList from "./ProjectList";
 
 const Section = styled.section`
@@ -69,7 +69,7 @@ const Portfolio = () => {
       <Container id="portfolio">
         <Header>
           <Title>
-            <HeaderIcon type="heart" />
+            {/* <HeaderIcon type="heart" /> */}
             Portfolio
           </Title>
           <Subtitle>Here's what I build.</Subtitle>

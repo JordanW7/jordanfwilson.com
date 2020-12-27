@@ -1,4 +1,4 @@
-import HeaderIcon from "./common/HeaderIcon";
+// import HeaderIcon from "./common/HeaderIcon";
 import styled from "styled-components";
 import SkillsCard from "./SkillsCard";
 
@@ -95,9 +95,7 @@ const Skills = () => {
     <Section>
       <Article id="skills">
         <Header>
-          <Title>
-            <HeaderIcon type="fire" /> Skills
-          </Title>
+          <Title>{/* <HeaderIcon type="fire" /> Skills */}</Title>
           <Subtitle>Here's how I build.</Subtitle>
         </Header>
         {skillList.map(({ name, icon, description }) => (
