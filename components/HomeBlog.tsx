@@ -3,51 +3,38 @@ import Link from "next/link";
 import Date from "./date";
 
 const Section = styled.section`
-  padding: 9vw 4vw;
+  padding: 6vw 4vw;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
+  width: 100%;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: rgba(19, 15, 235, 0.1) -2px -14px 15px -10px;
-  /* background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-image: url(images/bg-hero-3200.jpg);
+`;
 
-  @media (pointer: coarse) {
-    background-attachment: initial !important;
-  }
+const Title = styled.h2`
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 46px;
+  margin: 0 0 24px;
+`;
 
-  @media only screen and (max-width: 1024px) and (max-resolution: 191dpi) {
-    background-image: url(images/bg-hero-1024.jpg);
-  }
-
-  @media only screen and (max-width: 1024px) and (min-resolution: 192dpi) {
-    background-image: url(images/bg-hero-1920.jpg);
-  }
-
-  @media only screen and (min-width: 1025px) and (max-width: 1600px) and (max-resolution: 191dpi) {
-    background-image: url(images/bg-hero-1600.jpg);
-  }
-
-  @media only screen and (min-width: 1601px) and (max-width: 1920px) and (max-resolution: 191dpi) {
-    background-image: url(images/bg-hero-1920.jpg);
-  }
-
-  @media only screen and (min-width: 1025px) and (min-resolution: 192dpi),
-    screen and (min-width: 1921px) {
-    background-image: url(images/bg-hero-3200.jpg);
-  } */
+const PostList = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 `;
 
 const HomeBlog = ({ allPostsData }) => {
+  const recentPosts = !allPostsData.length
+    ? []
+    : allPostsData.length === 1
+    ? allPostsData
+    : allPostsData.slice(0, allPostsData.length >= 3 ? 3 : 2);
   return (
     <Section>
-      <h2>Blog</h2>
-      <ul>
-        {allPostsData.map(({ id, date, title }) => (
-          <li key={id}>
+      <Title>Recent posts</Title>
+      <PostList>
+        {recentPosts.map(({ id, date, title, subtitle, image, time }) => (
+          <div key={id}>
             <Link href={`/posts/${id}`}>
               <a>{title}</a>
             </Link>
@@ -55,9 +42,9 @@ const HomeBlog = ({ allPostsData }) => {
             <small>
               <Date dateString={date} />
             </small>
-          </li>
+          </div>
         ))}
-      </ul>
+      </PostList>
     </Section>
   );
 };

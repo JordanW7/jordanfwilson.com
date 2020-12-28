@@ -70,6 +70,42 @@ const RaisedButton = styled(BaseButton)`
   }
 `;
 
+const DefaultButton = styled(BaseButton)`
+  color: #fff;
+  background-color: ${(props) => props.color || ""};
+  &:hover {
+    background-color: ${(props) => props.hoverColor || props.color || ""};
+  }
+  &:disabled {
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+  &:disabled:hover {
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+`;
+
+const LinkButton = styled.a`
+  display: inline-block;
+  font-size: 0.875rem;
+  font-family: sans-serif;
+  border-radius: 4px;
+  padding: 0px 16px;
+  line-height: 30px;
+  vertical-align: middle;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: ${(props) => props.color || ""};
+  &:hover {
+    color: #fff;
+    background-color: ${(props) => props.hoverColor || props.color || ""};
+  }
+`;
+
 const Button = (props) => {
   const {
     children,
@@ -78,20 +114,26 @@ const Button = (props) => {
     flat,
     flatIcon,
     outlined,
+    raised,
     white,
     type = "button",
+    link,
     ...rest
   } = props;
 
-  const Component = flat
+  const Component = link
+    ? LinkButton
+    : flat
     ? FlatButton
     : outlined
     ? OutlinedButton
     : flatIcon
     ? IconButton
-    : RaisedButton;
+    : raised
+    ? RaisedButton
+    : DefaultButton;
 
-  const buttonColor = "color" in props ? color : white ? "#fff" : "";
+  const buttonColor = "color" in props ? color : white ? "#fff" : "#000";
 
   const buttonHoverColor = hoverColor
     ? hoverColor
@@ -99,7 +141,7 @@ const Button = (props) => {
     ? !flat && !outlined
       ? "#f2f2f2"
       : "rgba(255, 255, 255, 0.1)"
-    : "";
+    : "rgba(75, 75, 75)";
 
   return (
     <Component

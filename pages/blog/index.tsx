@@ -20,8 +20,9 @@ const Home = ({
         <title>{siteTitle}</title>
       </Head>
       <section>
-        <h2>Blog</h2>
-        <ul>
+        <h1>Blog</h1>
+        <h2>Coming Soon...</h2>
+        {/* <ul>
           {allPostsData.map(({ id, date, title }) => (
             <li key={id}>
               <Link href={`/posts/${id}`}>
@@ -33,7 +34,7 @@ const Home = ({
               </small>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </section>
     </Layout>
   );

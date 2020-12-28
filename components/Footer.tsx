@@ -3,24 +3,26 @@ import styled from "styled-components";
 const Container = styled.footer`
   display: flex;
   justify-content: center;
-  align-content: center;
-  /* background-color: rgba(0, 0, 0, 0.9); */
+  align-items: center;
+  /* background-color: #e6e6e6; */
   border-top: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: rgba(19, 15, 235, 0.1) -2px -14px 15px -10px;
-  padding: 10px;
-  /* color: white; */
+  padding: 2vw 4vw;
   font-size: 15px;
-  opacity: 0.8;
-  height: 44px;
   width: 100%;
+  a:not(:first-child) {
+    margin-left: 30px;
+  }
+`;
+
+const Copyright = styled.span`
+  margin-left: 30px;
 `;
 
 const Link = styled.a`
+  display: flex;
+  align-items: center;
   padding-left: 5px;
-  padding-right: 20px;
-  i {
-    font-size: 18;
-  }
 `;
 
 const LinkText = styled.span`
@@ -38,7 +40,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        {/* <Icon type="linkedin" theme="filled" /> */}
+        <img src="/images/linkedin.svg" width="20" height="20" alt="LinkedIn" />
         <LinkText> Linkedin</LinkText>
       </Link>
       <Link
@@ -46,13 +48,10 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        {/* <Icon type="github" theme="filled" /> */}
+        <img src="/images/github.svg" width="20" height="20" alt="Github" />
         <LinkText>Github</LinkText>
       </Link>
-      <span>
-        {/* <Icon type="copyright" style={{ fontSize: 15 }} /> */}
-        {` ${new Date().getFullYear()} Jordan Wilson`}
-      </span>
+      <Copyright>{`© ${new Date().getFullYear()} Jordan Wilson`}</Copyright>
     </Container>
   );
 };

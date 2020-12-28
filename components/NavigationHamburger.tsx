@@ -2,13 +2,13 @@ import styled from "styled-components";
 import Button from "./common/Button";
 
 const NavIcon = styled.span`
-  background: ${(props) => (props.open ? "transparent" : "white")};
+  background: ${(props) => (props.open ? "transparent" : "black")};
   display: block;
   height: 2px;
   position: relative;
   transition: background 0.2s ease-out;
   width: 18px;
-  ${(props) => (props.open ? "transparent" : "white")};
+  ${(props) => (props.open ? "transparent" : "black")};
 
   &:before {
     top: ${(props) => (props.open ? "0px" : "5px")};
@@ -22,7 +22,7 @@ const NavIcon = styled.span`
 
   :before,
   :after {
-    background: white;
+    background: black;
     content: "";
     display: block;
     height: 100%;
