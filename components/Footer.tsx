@@ -4,25 +4,41 @@ const Container = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #e6e6e6; */
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow: rgba(19, 15, 235, 0.1) -2px -14px 15px -10px;
+  color: #616161;
+  background-color: #f2f2f2;
   padding: 2vw 4vw;
   font-size: 15px;
   width: 100%;
   a:not(:first-child) {
     margin-left: 30px;
   }
+  @media only screen and (max-width: 767px) {
+    a:not(:first-child) {
+      margin-left: 20px;
+    }
+  }
 `;
 
 const Copyright = styled.span`
   margin-left: 30px;
+  @media only screen and (max-width: 767px) {
+    margin-left: 20px;
+  }
 `;
 
 const Link = styled.a`
   display: flex;
   align-items: center;
   padding-left: 5px;
+  img {
+    opacity: 0.8;
+  }
+  :hover {
+    img {
+      opacity: 1;
+    }
+    color: #000;
+  }
 `;
 
 const LinkText = styled.span`

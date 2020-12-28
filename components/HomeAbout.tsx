@@ -14,7 +14,7 @@ const Section = styled.section`
 `;
 
 const Title = styled.h2`
-  font-weight: 300;
+  font-weight: 500;
   font-size: 34px;
   line-height: 46px;
   margin: 0 0 24px;

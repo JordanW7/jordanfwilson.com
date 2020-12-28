@@ -13,7 +13,7 @@ const Content = styled.div`
 `;
 
 const Title = styled.h1`
-  font-weight: 300;
+  font-weight: 600;
   font-size: 34px;
   line-height: 46px;
   margin: 0 0 24px;

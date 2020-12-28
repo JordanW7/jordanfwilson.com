@@ -10,7 +10,6 @@ const Header = styled.header`
   width: 100%;
   background-color: white;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  /* color: #fff; */
 `;
 
 const NavBar = styled.nav`
@@ -18,7 +17,6 @@ const NavBar = styled.nav`
   align-items: center;
   align-content: center;
   justify-content: space-between;
-  /* background: rgba(0, 0, 0, 0.93); */
   padding: 0 4vw;
   display: flex;
   height: 60px;
@@ -27,7 +25,6 @@ const NavBar = styled.nav`
 const Title = styled.a`
   font-size: 20px;
   font-weight: 500;
-  /* text-shadow: 0 0 5px #000; */
   text-transform: uppercase;
 `;
 
@@ -77,19 +74,23 @@ const MobileMenu = styled.div`
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgb(30, 30, 30);
+  background: white;
   overflow: hidden;
-  height: ${({ open }) => (open ? "100vh" : "0")};
-  /* transition: height 0.3s ease-out; */
-  text-align: left;
-  a {
-    padding: 12px 20px;
-    font-size: 12pt;
-    text-transform: uppercase;
-  }
+  height: ${({ open }) => (open ? "calc(100vh - 60px)" : "0")};
+  text-align: center;
   @media only screen and (min-width: 768px) {
     display: none;
   }
+`;
+
+const MobileMenuLink = styled.a`
+  cursor: pointer;
+  padding: 3vw 5vw;
+  font-size: 6.6vmin;
+`;
+
+const MobileActions = styled.div`
+  padding: 3vw 5vw;
 `;
 
 const Navigation = () => {
@@ -143,9 +144,30 @@ const Navigation = () => {
       <MobileMenu open={menuOpen}>
         {links.map(({ href, label }) => (
           <Link key={`mobile-${label}`} href={href}>
-            <a>{label}</a>
+            <MobileMenuLink>{label}</MobileMenuLink>
           </Link>
         ))}
+        <MobileActions>
+          <IconLink
+            href="https://www.linkedin.com/in/jordanfwilson"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/images/linkedin.svg"
+              width="28"
+              height="28"
+              alt="LinkedIn"
+            />
+          </IconLink>
+          <IconLink
+            href="https://github.com/JordanW7"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/images/github.svg" width="28" height="28" alt="Github" />
+          </IconLink>
+        </MobileActions>
       </MobileMenu>
     </Header>
   );
