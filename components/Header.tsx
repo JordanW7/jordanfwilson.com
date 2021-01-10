@@ -4,6 +4,7 @@ import styled from "styled-components";
 import NavigationHamburger from "./NavigationHamburger";
 
 const Header = styled.header`
+  opacity: 0.97;
   z-index: 1;
   position: sticky;
   top: 0px;
