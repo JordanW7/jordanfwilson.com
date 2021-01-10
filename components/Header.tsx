@@ -99,7 +99,7 @@ const Navigation = () => {
   const links = [
     { href: "/about", label: "About" },
     { href: "/blog", label: "Blog" },
-    { href: "/contact", label: "Contact" },
+    // { href: "/contact", label: "Contact" },
   ];
   return (
     <Header>
