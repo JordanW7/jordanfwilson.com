@@ -85,9 +85,9 @@ const HomeAbout = () => {
           <MobileImage src="/images/profile.jpg" alt="" />
         </MobileImageContainer>
         <p>
-          I'm a New Zealand Software Engineer living and working in London. I
-          specialise in Full Stack product development and am most known for my
-          customer-centric approach.
+          I'm a Software Engineer from New Zealand living and working in London.
+          I specialise in Full Stack product development and am most known for
+          my customer-centric approach.
         </p>
         <p>
           I love a good challenge and trying new things to solve them. I really
