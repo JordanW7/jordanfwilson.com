@@ -53,7 +53,7 @@ const IconLink = styled.a`
 const NavItem = styled.a`
   cursor: pointer;
   :hover::after {
-    background-color: #000;
+    background-color: #2a5372;
   }
   ::after {
     content: "";

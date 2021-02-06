@@ -7,7 +7,8 @@ const TopSection = styled.section`
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  background-color: #e6e6e6;
+  background-color: #1c6693;
+  color: white;
 `;
 
 const ContentSection = styled.section`

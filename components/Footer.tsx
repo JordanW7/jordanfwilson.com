@@ -4,8 +4,8 @@ const Container = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #616161;
-  background-color: #f2f2f2;
+  color: black;
+  background-color: #eef6fc;
   padding: 2vw 4vw;
   font-size: 15px;
   width: 100%;

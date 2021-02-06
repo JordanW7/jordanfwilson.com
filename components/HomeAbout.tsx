@@ -78,7 +78,9 @@ const HomeAbout = () => {
           lives and the way we do our work in the 21st century.
         </Paragraph>
         <Link href="/about">
-          <StyledButton link>Learn more</StyledButton>
+          <StyledButton color="#008DD5" hoverColor="rgb(0,141,213,0.9)" link>
+            Learn more
+          </StyledButton>
         </Link>
       </Column>
       <WhiteSpaceCol />
