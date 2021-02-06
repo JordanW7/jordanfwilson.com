@@ -23,12 +23,28 @@ const Title = styled.h2`
 const Image = styled.img`
   width: 100%;
   max-width: 500px;
+  max-height: 500px;
   border-radius: 5px;
   object-fit: cover;
   overflow: hidden;
+  @media only screen and (min-width: 1500px) {
+    max-width: 600px;
+    max-height: 600px;
+  }
 `;
 
-const Paragraph = styled.p``;
+const MobileImage = styled.img`
+  max-height: 200px;
+  border-radius: 5px;
+`;
+
+const MobileImageContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+`;
 
 const Column = styled.div`
   width: 100%;
@@ -40,10 +56,10 @@ const Column = styled.div`
 const ColumnTwo = styled.div`
   display: flex;
   justify-content: center;
-  width: 100%;
-  @media only screen and (min-width: 768px) {
-    width: calc(50% - 20px);
-    justify-content: flex-end;
+  width: calc(50% - 20px);
+  justify-content: flex-end;
+  @media only screen and (max-width: 767px) {
+    display: none;
   }
 `;
 
@@ -65,18 +81,21 @@ const HomeAbout = () => {
     <Section>
       <Column>
         <Title>Hey there! My name is Jordan.</Title>
-        <Paragraph>
+        <MobileImageContainer>
+          <MobileImage src="/images/profile.jpg" alt="" />
+        </MobileImageContainer>
+        <p>
           I'm a New Zealand Software Engineer living and working in London. I
           specialise in Full Stack product development and am most known for my
           customer-centric approach.
-        </Paragraph>
-        <Paragraph>
+        </p>
+        <p>
           I love a good challenge and trying new things to solve them. I really
           enjoy the creative process of envisioning solutions to problems and
           developing products. I am passionate about developing technology that
           helps great people achieve great things, improving the way we live our
           lives and the way we do our work in the 21st century.
-        </Paragraph>
+        </p>
         <Link href="/about">
           <StyledButton color="#008DD5" hoverColor="rgb(0,141,213,0.9)" link>
             Learn more
