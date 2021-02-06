@@ -5,7 +5,7 @@ import { GetStaticProps } from "next";
 
 import HomeHero from "../components/HomeHero";
 import HomeAbout from "../components/HomeAbout";
-import HomeBlog from "../components/HomeBlog";
+// import HomeBlog from "../components/HomeBlog";
 
 const Home = ({
   allPostsData,
@@ -23,7 +23,7 @@ const Home = ({
       </Head>
       <HomeHero />
       <HomeAbout />
-      <HomeBlog allPostsData={allPostsData} />
+      {/* <HomeBlog allPostsData={allPostsData} /> */}
     </Layout>
   );
 };

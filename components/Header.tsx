@@ -98,7 +98,7 @@ const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const links = [
     { href: "/about", label: "About" },
-    { href: "/blog", label: "Blog" },
+    // { href: "/blog", label: "Blog" },
     // { href: "/contact", label: "Contact" },
   ];
   return (
