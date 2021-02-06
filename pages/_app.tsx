@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   font-display: swap;
   font-weight: 300;
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
   scroll-behavior: smooth;
 }
 

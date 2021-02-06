@@ -33,6 +33,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         />
         <meta property="og:title" content="Jordan Wilson - Software Engineer" />
         <meta property="og:url" content="https://jordanfwilson.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+          rel="stylesheet"
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
