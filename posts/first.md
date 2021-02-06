@@ -1,8 +1,8 @@
 ---
 title: "First Post"
-description: "Subtitle text"
-date: "2021-01-01"
+description: "Placeholder"
+date: "2021-02-01"
 time: 1
 ---
 
-This is the first post.
+Coming soon.
