@@ -119,37 +119,6 @@ const About = () => {
           than I can complete. This hunger for knowledge defines me in the way
           that I work.
         </p>
-        <SectionTitle>What I'm building</SectionTitle>
-        <p>
-          At{" "}
-          <ExternalLink
-            href="https://redsift.com"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Red Sift
-          </ExternalLink>
-          , I have direct product ownership of their new second product,{" "}
-          <ExternalLink
-            href="https://oninbox.redsift.com"
-            rel="noreferrer"
-            target="_blank"
-          >
-            OnINBOX
-          </ExternalLink>
-          . I am involved in constant strategic decision making and leadership
-          over a team in a trying environment. I have gained immense experience
-          leading development on{" "}
-          <ExternalLink
-            href="https://oninbox.redsift.com"
-            rel="noreferrer"
-            target="_blank"
-          >
-            OnINBOX
-          </ExternalLink>{" "}
-          from internal beta through product-market fit and scaling, gaining
-          major global companies as customers in the process.
-        </p>
         <SectionTitle>Why I build</SectionTitle>
         <ContentHeader>#Technology</ContentHeader>
         <p>
