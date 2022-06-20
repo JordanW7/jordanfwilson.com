@@ -25,7 +25,8 @@ const HomeHero = () => {
     <Section>
       <Content>
         <Title>
-          Problem Finder, Creative Problem Solver and Software Engineer.
+          Product-Minded Software Engineer. Problem Finder, Problem Solver,
+          Mentor and Coach.
         </Title>
       </Content>
     </Section>

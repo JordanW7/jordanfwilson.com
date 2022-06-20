@@ -73,13 +73,6 @@ const About = () => {
         </ContentTitle>
         <p>I'm Jordan Wilson.</p>
         <p>
-          <span role="img" aria-label="man at computer">
-            👨‍💻
-          </span>{" "}
-          I specialise in Full Stack product development and am most known for
-          my customer-centric approach.
-        </p>
-        <p>
           <span role="img" aria-label="blue heart">
             💙
           </span>{" "}
@@ -87,60 +80,44 @@ const About = () => {
           enjoy the creative process of envisioning solutions to problems and
           developing products. I am passionate about developing technology that
           helps great people achieve great things, improving the way we live our
-          lives and the way we do our work in the 21st century.
+          lives in the 21st century.
         </p>
         <p>
-          <span role="img" aria-label="microphone">
-            🎙
+          <span role="img" aria-label="fire">
+            🔥
           </span>{" "}
-          I understand the importance of communication, both internally between
-          teams and colleagues and externally with our customers.
+          I always run toward fires. I love helping others and ensuring that
+          similar fires don't happen in the future. Fires often provide
+          invaluable learning opportunities.
         </p>
         <p>
           <span role="img" aria-label="chart">
             📈
           </span>{" "}
-          Capable of both tactically improving the execution of technical teams,
-          as well as setting vision and defining strategy in line with top-line
-          business goals.
+          I have a constant focus on ensuring whatever I do helps the business
+          the most. I have experience in leading risky high-impact technical
+          projects under pressure, tactically improving the execution of
+          technical teams, managing incidents and improving resilience, taking
+          new products through product-market fit and scaling challenges,
+          improving the recruitment pipeline and setting vision and defining
+          strategy in line with top-line business goals.
         </p>
         <p>
-          <span role="img" aria-label="laptop">
-            💻
+          <span role="img" aria-label="party emoji">
+            🎉
           </span>{" "}
-          Tech I'm currently working with includes React, JavaScript,
-          TypeScript, and Python.
+          I always do what I can to set up others for success. I love mentoring
+          and coaching across an entire organisation. By helping others improve,
+          the company improves and everyone wins.
         </p>
-        <SectionTitle>What I'm building</SectionTitle>
         <p>
-          At{" "}
-          <ExternalLink
-            href="https://redsift.com"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Red Sift
-          </ExternalLink>
-          , I have direct product ownership of their new second product,{" "}
-          <ExternalLink
-            href="https://oninbox.redsift.com"
-            rel="noreferrer"
-            target="_blank"
-          >
-            OnINBOX
-          </ExternalLink>
-          . I am involved in constant strategic decision making and leadership
-          over a team in a trying environment. I have gained immense experience
-          leading development on{" "}
-          <ExternalLink
-            href="https://oninbox.redsift.com"
-            rel="noreferrer"
-            target="_blank"
-          >
-            OnINBOX
-          </ExternalLink>{" "}
-          from internal beta through product-market fit and scaling, gaining
-          major global companies as customers in the process.
+          <span role="img" aria-label="books">
+            📚
+          </span>{" "}
+          I have a curious nature with an unquenchable thirst for learning. I
+          buy more books than I can finish and I sign up for more online courses
+          than I can complete. This hunger for knowledge defines me in the way
+          that I work.
         </p>
         <SectionTitle>Why I build</SectionTitle>
         <ContentHeader>#Technology</ContentHeader>
