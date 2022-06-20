@@ -10,7 +10,7 @@
     "plugin:import/recommended",
     "plugin:import/react",
     "plugin:prettier/recommended",
-    "prettier/react"
+    "prettier"
   ],
   "env": { "es6": true, "browser": true, "commonjs": true, "jest": true },
   "parserOptions": {
@@ -61,7 +61,7 @@
         "plugin:import/warnings",
         "plugin:import/typescript",
         "plugin:prettier/recommended",
-        "prettier/react"
+        "prettier"
       ],
       "rules": {
         "react/prop-types": "off",
